@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>{% block title %}Language Tests App{% endblock %}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% block stylesheets %}{% endblock %}
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('styles/style.css') }}">
+</head>
+<body>
+{{ include('header.html.twig') }}
+<div class="site-content">
+    {% block body %}{% endblock %}
+    {{ include('footer.html.twig') }}
+</div>
+{% block javascripts %}{% endblock %}
+<script type="text/javascript" src="{{ asset('scripts/tests.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/words.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/upload.js"') }}"></script>
+</body>
+</html>

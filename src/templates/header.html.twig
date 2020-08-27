@@ -1,0 +1,16 @@
+<header class="site-header">
+    <div class="container">
+        <div class="head-wrap">
+            <div class="head-title">
+                <a href="/"><span class="head-title-desc">Тесты по английскому</span></a>
+            </div>
+            <div class="head-menu">
+                <ul>
+                    <li><a href="/"{% if path == '/' %} class="active"{% endif %}>Тесты</a></li>
+                    <li><a href="/words/"{% if path == '/words/' %} class="active"{% endif %}>Группы слов</a></li>
+                    <li><a href="/upload/"{% if path == '/upload/' %} class="active"{% endif %}>Загрузить список</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>

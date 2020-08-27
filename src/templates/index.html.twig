@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main class="site-main">
+        <div class="container">
+
+            <section class="tests">
+                <div class="tests-nav">
+                    <div class="nav-block nav-left">
+                        <div class="current-level">Уровень: <span id="level">Elementary</span></div>
+                        <div class="current-source">Группа слов: <span id="group">Все слова</span></div>
+                    </div>
+                    <div class="nav-block nav-right">
+                        <div class="results-clear"><span class="btn btn-inline">Очистить прогресс</span></div>
+                        <div class="results-count">Ответов: <span>0</span></div>
+                    </div>
+                </div>
+                <div class="test-inner">
+                    <div class="question" id="question"></div>
+                    <div class="answers">
+                        <div id="answers"></div>
+                        <div class="right-answer" id="correctAnswer"></div>
+                    </div>
+                    <div class="quest-buttons">
+                        <div class="btn-next">
+                            <span class="btn btn-bg btn-icon btn-icon-right">Следующий вопрос</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+{% endblock %}
