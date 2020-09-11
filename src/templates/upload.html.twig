@@ -14,11 +14,12 @@
                                 <input type="file" name="file">
                             </label>
                             <div class="description">Поддерживаемые форматы: JSON, XML.
-                                Скачать пример файла <a href="assets/files/dict-a.json"
+                                Скачать пример файла <a href="{{ asset('files/dict-a.json"') }}"
                                                         target="_blank">JSON</a>, <a
-                                        href="assets/files/dict-b.xml" target="_blank">XML</a>.</div>
+                                        href="{{ asset('files/dict-b.xml"') }}" target="_blank">XML</a>.
+                            </div>
                         </div>
-                        <div class="field">
+                        <div class="field field-s">
                             <label>
                                 <span>Язык оригинала</span>
                                 <select name="original" class="language-select">
@@ -26,7 +27,7 @@
                                 </select>
                             </label>
                         </div>
-                        <div class="field">
+                        <div class="field field-s">
                             <label>
                                 <span>Язык перевода</span>
                                 <select name="translation" class="language-select">
@@ -43,6 +44,30 @@
                     </div>
                     <div class="submit-btn">
                         <button type="submit" class="btn btn-bg">Загрузить</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="language">
+                <form class="language-form" id="language-form" method="post">
+                    <h3>Нет нужного языка? Создайте его сами!</h3>
+                    <div class="fields">
+                        <div class="field field-s">
+                            <label>
+                                <span>Код языка <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes"
+                                                   target="_blank"><i class="fas fa-info-circle"></i></a></span>
+                                <input type="text" name="code" minlength="2" maxlength="2">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Название языка</span>
+                                <input type="text" name="name">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn btn-bg">Создать</button>
                     </div>
                 </form>
             </section>

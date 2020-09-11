@@ -1,11 +1,13 @@
+"use strict";
 let isDev = !window.location.hostname.includes('karumi');
-const serverUrl = isDev ? 'http://127.0.0.2:8000/api/' : 'https://learning-app.karumi.space/api/';
+// const serverUrl = isDev ? 'http://127.0.0.2:8000/api/' : 'https://learning-app.karumi.space/api/';
+const serverUrl = 'https://127.0.0.1:8000/api/';
 // tests
 const questionDiv = document.querySelector('#question');
 const answersDiv = document.querySelector('#answers');
 const rightAnswerDiv = document.querySelector('#correctAnswer');
 const resultsCountSpan = document.querySelector('.results-count span');
-const groupNameDiv = document.querySelector('#group');
+const groupNameDiv = document.querySelector('.current-source');
 let resultsCountCorrect = parseInt(localStorage.getItem('resultsCountCorrect'));
 let resultsCountAll = parseInt(localStorage.getItem('resultsCountAll'));
 if (!Number.isInteger(resultsCountCorrect) || !Number.isInteger(resultsCountAll)) {
@@ -29,22 +31,36 @@ document.addEventListener('DOMContentLoaded', function () {
             clearTestProgress();
         });
     });
+
+    if (!!localStorage.getItem('testGroup')) {
+        let btn = createNode('span', 'btn-inline group-clear');
+        btn.innerHTML = '<i class="far fa-times-circle"></i>';
+        groupNameDiv.append(btn);
+    }
+
+    document.querySelectorAll('.group-clear').forEach(item => {
+        item.addEventListener('click', function () {
+            localStorage.removeItem('testGroup');
+            location.reload();
+        });
+    });
 });
 
 function showTest() {
     if (answersDiv === null) {
         return;
     }
-    let url = serverUrl + 'test/';
+    let url = serverUrl + 'test';
     let group = parseInt(localStorage.getItem('testGroup'));
     if (!!group) {
-        url += '?group=' + group;
+        url += '?groupId=' + group;
     }
     fetch(url)
         .then((resp) => resp.json())
         .then(function (data) {
+            console.log(data);
             if (!!data.group) {
-                groupNameDiv.innerHTML = data.group.name;
+                groupNameDiv.querySelector('#group').innerHTML = data.group.name;
             }
             createAnswers(data);
         })
@@ -59,11 +75,11 @@ function showTest() {
 }
 
 function createAnswers(data) {
-    let question = data.item;
+    let question = data.word;
     questionDiv.innerHTML = `${question.text}`;
     questionDiv.setAttribute('data-id', `${question.id}`);
     answersDiv.innerHTML = '';
-    let answers = data.items;
+    let answers = data.answers;
     return answers.map(function (answer) {
         let el = createNode('div', 'answer');
         el.innerHTML = `${answer.text}`;
@@ -78,20 +94,24 @@ function submitAnswer() {
     if (!(!!word && !!answer)) {
         location.reload();
     }
-    let postData = {
-        wordId: word,
-        answerId: answer
-    }
+    let postData = new FormData;
+    postData.append('wordId', word);
+    postData.append('answerId', answer);
     let fetchData = {
         headers: new Headers(),
         method: 'POST',
-        body: JSON.stringify(postData)
+        body: postData
     }
     let url = serverUrl + 'test';
     fetch(url, fetchData)
         .then((resp) => resp.json())
         .then(function (data) {
-            rightAnswerDiv.innerHTML = `${data.item.question} &mdash; ${data.item.answer}`;
+            console.log(data);
+            let answersText = [];
+            data.word.translations.map(function (answer) {
+                answersText.push(answer.text);
+            });
+            rightAnswerDiv.innerHTML = `${data.word.text} &mdash; ${answersText.join(' | ')}`;
             rightAnswerDiv.className = data.result;
             updateResultsCount(data.result);
         })

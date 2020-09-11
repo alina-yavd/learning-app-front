@@ -70,14 +70,15 @@ section {
   font-weight: normal;
   color: #252c35;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn-inline:hover {
-  color: #bd0d22;
+  color: var(--color-primary);
 }
 
 .container {
-  width: 1040px;
+  max-width: 1040px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -147,8 +148,6 @@ section {
 
 /* Header */
 .site-header {
-  height: 72px;
-  //background-color: #fff;
   background-color: var(--color-primary);
   color: #fff;
   @include shadow;
@@ -159,32 +158,44 @@ section {
 
   .head-wrap {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     padding: 10px 0;
+
+    @media (min-width: 768px) {
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 
   .head-title {
-    width: 20%;
     min-width: 210px;
     font-size: 3em;
-    line-height: 1em;
     text-transform: uppercase;
+
+    @media (min-width: 768px) {
+      width: 20%;
+    }
   }
 
   .head-title-desc {
     display: block;
-    font-size: 14px;
-    line-height: 10px;
+    font-size: 16px;
+    font-weight: 600;
     text-transform: none;
     text-align: center;
   }
 
 
   .head-menu {
-    width: 70%;
-    text-align: right;
-    font-size: 1.1em;
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: right;
+      width: 70%;
+    }
 
     .level {
       display: inline-block;
@@ -196,10 +207,14 @@ section {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      justify-content: flex-end;
-      margin: 10px 0;
+      justify-content: center;
+      margin: 10px 0 0;
       padding: 0;
       list-style-type: none;
+
+      @media (min-width: 768px) {
+        justify-content: flex-end;
+      }
 
       li {
         a {
@@ -266,6 +281,10 @@ section {
 
 section:not(.tests) {
   padding: 40px 0;
+
+  &.language {
+    padding-top: 0;
+  }
 }
 
 
@@ -371,6 +390,7 @@ section:not(.tests) {
 
     .group-title {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
 
@@ -378,11 +398,49 @@ section:not(.tests) {
         font-weight: 600;
         text-transform: uppercase;
       }
+
+      .group-image {
+        display: inline-block;
+        margin-right: 15px;
+
+        img {
+          max-height: 100px;
+          object-fit: contain;
+          @include radius;
+        }
+      }
+    }
+
+    .btns-wrap {
+      display: flex;
+      align-items: center;
+
+      .btn-delete-group {
+        .btn {
+          padding: 0 8px;
+          font-size: 20px;
+          color: #ab0000;
+
+          &:hover {
+            background-color: #ab0000;
+            border-color: #ab0000;
+            color: #fff;
+          }
+        }
+      }
     }
 
     .group-words {
       padding: 20px 0;
-      columns: 5;
+      columns: 2;
+
+      @media (min-width: 576px) {
+        columns: 3;
+      }
+
+      @media (min-width: 768px) {
+        columns: 5;
+      }
     }
   }
 
@@ -871,6 +929,7 @@ section.profile h3 {
 /* Forms */
 select,
 input:not([type="file"]) {
+  width: 200px;
   padding: 5px 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 3px;
@@ -885,17 +944,39 @@ form {
   @include radius;
 
   .fields {
+    display: flex;
+    flex-wrap: wrap;
+
     .field {
+      width: 100%;
       padding: 10px 0;
+
+      &.field-s {
+        @media (min-width: 768px) {
+          width: 50%;
+        }
+      }
     }
 
     label {
-      display: flex;
-      align-items: center;
+      display: block;
+
+      @media (min-width: 576px) {
+        display: flex;
+        align-items: center;
+
+      }
 
       span {
-        width: 200px;
-        max-width: 40%;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 5px;
+
+        @media (min-width: 576px) {
+          width: 200px;
+          max-width: 40%;
+          margin-bottom: 0;
+        }
       }
     }
   }

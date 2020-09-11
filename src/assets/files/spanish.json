@@ -1,0 +1,240 @@
+{
+  "items": [
+    {
+      "word": "Buenos días",
+      "translation": "Доброе утро"
+    },
+    {
+      "word": "Buenas tardes",
+      "translation": "Добрый день/вечер"
+    },
+    {
+      "word": "Buenas noches",
+      "translation": "Доброй ночи"
+    },
+    {
+      "word": "Hola",
+      "translation": "Привет"
+    },
+    {
+      "word": "Adiós",
+      "translation": "До свидания"
+    },
+    {
+      "word": "Hasta luego",
+      "translation": "До свидания"
+    },
+    {
+      "word": "Hasta pronto",
+      "translation": "До скорого"
+    },
+    {
+      "word": "Sí",
+      "translation": "Да"
+    },
+    {
+      "word": "No",
+      "translation": "Нет"
+    },
+    {
+      "word": "Gracias",
+      "translation": "Спасибо"
+    },
+    {
+      "word": "Muchas gracias",
+      "translation": "Большое спасибо"
+    },
+    {
+      "word": "Por favor",
+      "translation": "Пожалуйста"
+    },
+    {
+      "word": "Perdóname",
+      "translation": "Простите"
+    },
+    {
+      "word": "Lo siento",
+      "translation": "Мне очень жаль"
+    },
+    {
+      "word": "¿Qué tal?",
+      "translation": "Как дела?"
+    },
+    {
+      "word": "¿Cómo estás?",
+      "translation": "Как у тебя дела?"
+    },
+    {
+      "word": "¿Cómo está?",
+      "translation": "Как ваши дела?"
+    },
+    {
+      "word": "Bien, gracias",
+      "translation": "Хорошо, спасибо"
+    },
+    {
+      "word": "Muy bien",
+      "translation": "Очень хорошо"
+    },
+    {
+      "word": "¿Y tú?",
+      "translation": "А ты?"
+    },
+    {
+      "word": "¿Y usted?",
+      "translation": "А вы?"
+    },
+    {
+      "word": "Esta bien",
+      "translation": "Договорились"
+    },
+    {
+      "word": "Bueno",
+      "translation": "Хороший"
+    },
+    {
+      "word": "Malo",
+      "translation": "Плохой"
+    },
+    {
+      "word": "Frío",
+      "translation": "Холодный"
+    },
+    {
+      "word": "Caliente",
+      "translation": "Горячий"
+    },
+    {
+      "word": "Grande",
+      "translation": "Большой"
+    },
+    {
+      "word": "Pequeño",
+      "translation": "Маленький"
+    },
+    {
+      "word": "Caro",
+      "translation": "Дорогой"
+    },
+    {
+      "word": "Bastante",
+      "translation": "Достаточно"
+    },
+    {
+      "word": "Hoy",
+      "translation": "Сегодня"
+    },
+    {
+      "word": "Ayer",
+      "translation": "Вчера"
+    },
+    {
+      "word": "Mañana",
+      "translation": "Завтра"
+    },
+    {
+      "word": "La mañana",
+      "translation": "Утро"
+    },
+    {
+      "word": "La tarde",
+      "translation": "Вечер"
+    },
+    {
+      "word": "La noche",
+      "translation": "Ночь"
+    },
+    {
+      "word": "Tarde",
+      "translation": "Поздно"
+    },
+    {
+      "word": "Temprano",
+      "translation": "Рано"
+    },
+    {
+      "word": "Cerrado",
+      "translation": "Закрыто"
+    },
+    {
+      "word": "Abierto",
+      "translation": "Открыто"
+    },
+    {
+      "word": "Entrada",
+      "translation": "Вход"
+    },
+    {
+      "word": "Salida",
+      "translation": "Выход"
+    },
+    {
+      "word": "A la izquierda ",
+      "translation": "Слева"
+    },
+    {
+      "word": "A la derecha ",
+      "translation": "Справа"
+    },
+    {
+      "word": "Prohibido",
+      "translation": "Запрещено"
+    },
+    {
+      "word": "Ascensor",
+      "translation": "Лифт"
+    },
+    {
+      "word": "Servicio",
+      "translation": "Туалет"
+    },
+    {
+      "word": "La estación",
+      "translation": "Вокзал"
+    },
+    {
+      "word": "La calle",
+      "translation": "Улица"
+    },
+    {
+      "word": "La casa",
+      "translation": "Дом"
+    },
+    {
+      "word": "La tienda",
+      "translation": "Магазин"
+    },
+    {
+      "word": "Nombre",
+      "translation": "Имя"
+    },
+    {
+      "word": "Apellido",
+      "translation": "Фамилия"
+    },
+    {
+      "word": "Edad",
+      "translation": "Возраст"
+    },
+    {
+      "word": "Fecha de nacimiento",
+      "translation": "Дата рождения"
+    },
+    {
+      "word": "Dirección",
+      "translation": "Адрес"
+    },
+    {
+      "word": "Nacionalidad",
+      "translation": "Национальность"
+    },
+    {
+      "word": "Número de teléfono",
+      "translation": "Номер телефона"
+    },
+    {
+      "word": "Hijos",
+      "translation": "Дети"
+    }
+  ]
+}
