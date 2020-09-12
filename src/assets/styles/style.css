@@ -376,10 +376,10 @@ section {
         width: 20%; } }
   .site-header .head-title-desc {
     display: block;
+    padding: 0 10px;
     font-size: 16px;
     font-weight: 600;
-    text-transform: none;
-    text-align: center; }
+    text-transform: none; }
   .site-header .head-menu {
     text-align: center; }
     @media (min-width: 768px) {
@@ -459,10 +459,12 @@ section:not(.tests) {
       padding: 0 10px; }
     .tests-nav .nav-block.nav-right {
       justify-content: flex-end; }
-  .tests-nav .current-level {
+  .tests-nav .current-language {
     margin: 7px 0;
     color: #6f849c;
     border-right: 1px solid #6f849c; }
+    .tests-nav .current-language .flag img {
+      width: 25px; }
   .tests-nav .current-source {
     margin: 7px 0;
     color: #6f849c; }
@@ -496,10 +498,10 @@ section:not(.tests) {
       color: #0b8a3b; }
     .test-inner .answers #correctAnswer.false {
       color: #bd0d22; }
-  .test-inner .quest-buttons {
+  .test-inner .question-buttons {
     display: flex;
     justify-content: center; }
-    .test-inner .quest-buttons > div {
+    .test-inner .question-buttons > div {
       display: inline-block; }
 
 /* Words Page */
@@ -517,6 +519,8 @@ section:not(.tests) {
     .word-list .group .group-title .group-name {
       font-weight: 600;
       text-transform: uppercase; }
+    .word-list .group .group-title .group-name-wrap {
+      display: block; }
     .word-list .group .group-title .group-image {
       display: inline-block;
       margin-right: 15px; }
@@ -546,6 +550,34 @@ section:not(.tests) {
         columns: 5; } }
 .word-list .word {
   margin: 3px 0; }
+
+.lang-flags-wrap {
+  display: flex;
+  align-items: center; }
+  .lang-flags-wrap .flag + .flag {
+    position: relative;
+    padding-left: 15px; }
+    .lang-flags-wrap .flag + .flag:before {
+      content: '\f054';
+      position: absolute;
+      top: calc(50% - 7px);
+      left: 0;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 900; }
+
+.flag {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  border-radius: 100px;
+  overflow: hidden; }
+  .flag img {
+    width: 40px; }
 
 /* Lists Page */
 .source {

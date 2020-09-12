@@ -182,10 +182,10 @@ section {
 
   .head-title-desc {
     display: block;
+    padding: 0 10px;
     font-size: 16px;
     font-weight: 600;
     text-transform: none;
-    text-align: center;
   }
 
 
@@ -311,10 +311,14 @@ section:not(.tests) {
     }
   }
 
-  .current-level {
+  .current-language {
     margin: 7px 0;
     color: #6f849c;
     border-right: 1px solid #6f849c;
+
+    .flag img {
+      width: 25px;
+    }
   }
 
   .current-source {
@@ -367,7 +371,7 @@ section:not(.tests) {
     }
   }
 
-  .quest-buttons {
+  .question-buttons {
     display: flex;
     justify-content: center;
 
@@ -397,6 +401,10 @@ section:not(.tests) {
       .group-name {
         font-weight: 600;
         text-transform: uppercase;
+      }
+
+      .group-name-wrap {
+        display: block;
       }
 
       .group-image {
@@ -446,6 +454,42 @@ section:not(.tests) {
 
   .word {
     margin: 3px 0;
+  }
+}
+
+.lang-flags-wrap {
+  display: flex;
+  align-items: center;
+
+  .flag + .flag {
+    position: relative;
+    padding-left: 15px;
+
+    &:before {
+      content: '\f054';
+      position: absolute;
+      top: calc(50% - 7px);
+      left: 0;
+      display: inline-block;
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      line-height: 1;
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 900;
+    }
+  }
+}
+
+.flag {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 10px;
+  border-radius: 100px;
+  overflow: hidden;
+
+  img {
+    width: 40px;
   }
 }
 

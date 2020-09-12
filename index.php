@@ -52,6 +52,11 @@ $app->route->get('/words', function () use ($twig) {
     echo $template->render(['path' => app('request')->path]);
 });
 
+$app->route->get('/group/{id}', function (int $id) use ($twig) {
+    $template = $twig->load('group.html.twig');
+    echo $template->render(['path' => app('request')->path, 'id' => $id]);
+});
+
 $app->route->get('/upload', function () use ($twig) {
     $template = $twig->load('upload.html.twig');
     echo $template->render(['path' => app('request')->path]);

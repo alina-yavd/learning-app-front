@@ -16,9 +16,15 @@
     {{ include('footer.html.twig') }}
 </div>
 {% block javascripts %}{% endblock %}
+<script type="text/javascript" src="{{ asset('scripts/localDataStorage.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/api/testApi.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/api/languageApi.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/api/groupApi.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/api/uploadApi.js') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/basic.js') }}"></script>
 <script type="text/javascript" src="{{ asset('scripts/tests.js') }}"></script>
-<script type="text/javascript" src="{{ asset('scripts/words.js') }}"></script>
 <script type="text/javascript" src="{{ asset('scripts/languages.js"') }}"></script>
+<script type="text/javascript" src="{{ asset('scripts/groups.js') }}"></script>
 <script type="text/javascript" src="{{ asset('scripts/upload.js"') }}"></script>
 </body>
 </html>

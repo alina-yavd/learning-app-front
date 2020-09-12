@@ -1,76 +1,39 @@
 const languageForm = document.querySelector('#language-form');
 const LanguageSelects = document.querySelectorAll('.language-select');
-let languages = [];
 
-getLanguages();
+apiGetLanguages();
 
 document.addEventListener('DOMContentLoaded', function () {
-    showCurrentLanguage();
-    renderLanguageSelect();
-
     if (!!languageForm) {
         languageForm.addEventListener('submit', function (event) {
             event.preventDefault();
-            createLanguage();
+            apiCreateLanguage();
         })
     }
 });
 
-function createLanguage() {
-    let formData = new FormData(languageForm);
-    let url = serverUrl + 'language/create';
-    let request = new Request(url, {
-        method: 'POST',
-        body: formData
-    });
-    fetch(request)
-        .then((resp) => resp.json())
-        .then(function (data) {
-            if (data.status === 'success') {
-                location.reload();
-            } else {
-                alert(data.message);
-            }
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-}
-
-function getLanguages() {
-    let url = serverUrl + 'language';
-    fetch(url)
-        .then((resp) => resp.json())
-        .then(function (data) {
-            console.log(data);
-            languages = data.items;
-        })
-        .then(function () {
-            showCurrentLanguage();
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-}
-
-function showCurrentLanguage() {
-    let languageName = '';
-    let localLanguage = localStorage.getItem('language');
-    if (!!localLanguage) {
-        languageName = languages.find(lang => lang.name === localLanguage);
-    } else {
-        languageName = languages.shift();
-    }
-    if (!!languageName) {
-        document.querySelector('#language').innerHTML = languageName.name;
+function resultGetLanguages(languages) {
+    let group = localData.get('localGroup');
+    if (!!group && group.language) {
+        let currentLanguage = languages.find(lang => lang.id === group.language.id);
+        localData.set('localLanguage', currentLanguage);
     }
 }
 
-function renderLanguageSelect() {
+function renderGetLanguages(languages) {
+    const languageDiv = document.querySelector('#language');
+    let localLanguage = localData.get('localLanguage');
+    if (!!languageDiv && !!localLanguage) {
+        languageDiv.innerHTML = localLanguage.name + '<span class="flag"><img src="/src/assets/images/flags/' + localLanguage.code + '.svg"></span>';
+    }
+    renderLanguageSelect(languages);
+}
+
+function renderLanguageSelect(languages) {
     if (!LanguageSelects.length) {
         return;
     }
-    if (languages.length) {
+    if (!!languages && languages.length) {
         LanguageSelects.forEach(select => {
             languages.forEach(language => {
                 let option = createNode('option', '');
