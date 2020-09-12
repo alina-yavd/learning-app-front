@@ -1,10 +1,14 @@
-function apiGetGroups() {
+function apiGetGroups(language, translation) {
     let url = serverUrl + 'group';
+    if (!!language || !!translation) {
+        url += '?language=' + language + '&translation=' + translation;
+    }
     fetch(url)
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);
             resultGetGroups(data);
+            renderGetGroups(data.items);
         })
         .catch(function (error) {
             console.log(error);
@@ -21,19 +25,6 @@ function apiGetGroup(id) {
         .then(function (data) {
             console.log(data);
             renderGetGroup(data.item);
-        })
-        .catch(function (error) {
-            console.log(error);
-        });
-}
-
-function apiGetGroupsWithWords() {
-    let url = serverUrl + 'word/group';
-    fetch(url)
-        .then((resp) => resp.json())
-        .then(function (data) {
-            console.log(data);
-            renderGetGroupsWithWords(data.items);
         })
         .catch(function (error) {
             console.log(error);

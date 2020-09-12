@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main class="site-main">
+        <div class="container">
+
+            <section class="words">
+                <form class="group-filter-form" id="group-filter-form" method="post">
+                    <h4>Фильтр:</h4>
+                    <div class="fields">
+                        <div class="field field-s">
+                            <label>
+                                <span>Язык оригинала</span>
+                                <select name="original" class="language-select">
+                                    <option></option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Язык перевода</span>
+                                <select name="translation" class="language-select">
+                                    <option></option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn btn-outline">Применить</button>
+                    </div>
+                </form>
+                <div class="word-group" id="words"></div>
+            </section>
+
+        </div>
+    </main>
+{% endblock %}

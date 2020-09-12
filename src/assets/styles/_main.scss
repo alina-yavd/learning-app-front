@@ -382,9 +382,9 @@ section:not(.tests) {
 }
 
 
-/* Words Page */
+/* Word Groups Pages */
 
-.word-list {
+.word-group {
   .group {
     margin-bottom: 30px;
     padding: 20px 40px;
@@ -454,6 +454,29 @@ section:not(.tests) {
 
   .word {
     margin: 3px 0;
+  }
+}
+
+.group-filter-form {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  @media (min-width: 1024px) {
+    display: flex;
+
+    .fields {
+      max-width: 70%;
+    }
+  }
+
+  > * {
+    padding: 0 10px;
+  }
+
+  .submit-btn {
+    padding-top: 0;
   }
 }
 
@@ -998,6 +1021,8 @@ form {
       &.field-s {
         @media (min-width: 768px) {
           width: 50%;
+          padding-left: 5px;
+          padding-right: 5px;
         }
       }
     }

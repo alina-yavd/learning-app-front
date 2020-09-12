@@ -95,9 +95,8 @@ function updateResultsCount(result) {
 }
 
 function clearTestProgress() {
-    localStorage.removeItem('localGroup');
-    localStorage.removeItem('resultsCountCorrect');
-    localStorage.removeItem('resultsCountAll');
+    localData.remove('resultsCountCorrect');
+    localData.remove('resultsCountAll');
     location.reload();
 }
 

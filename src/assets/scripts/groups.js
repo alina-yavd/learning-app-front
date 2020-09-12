@@ -1,12 +1,18 @@
 const wordsDiv = document.querySelector('#words');
 const groupDiv = document.querySelector('#word-group');
+const groupFilter = document.querySelector('.group-filter-form');
 document.addEventListener('DOMContentLoaded', function () {
     apiGetGroups();
-    if (wordsDiv !== null) {
-        apiGetGroupsWithWords();
-    }
     if (groupDiv !== null) {
         apiGetGroup(groupDiv.dataset.id);
+    }
+    if (!!groupFilter) {
+        groupFilter.addEventListener('submit', function (event) {
+            event.preventDefault();
+            let language = this.querySelector('select[name="original"]').value;
+            let translation = this.querySelector('select[name="translation"]').value;
+            apiGetGroups(language, translation);
+        })
     }
 });
 
@@ -16,7 +22,7 @@ function resultGetGroups(data) {
     }));
 }
 
-function renderGetGroupsWithWords(groups) {
+function renderGetGroups(groups) {
     if (wordsDiv === null) {
         return;
     }

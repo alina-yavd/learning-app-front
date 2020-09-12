@@ -43,12 +43,12 @@ $app->request = System\Request::instance();
 $app->route = System\Route::instance($app->request);
 
 $app->route->get('', function () use ($twig) {
-    $template = $twig->load('index.html.twig');
+    $template = $twig->load('test.html.twig');
     echo $template->render(['path' => app('request')->path]);
 });
 
-$app->route->get('/words', function () use ($twig) {
-    $template = $twig->load('words.html.twig');
+$app->route->get('/groups', function () use ($twig) {
+    $template = $twig->load('groups.html.twig');
     echo $template->render(['path' => app('request')->path]);
 });
 
