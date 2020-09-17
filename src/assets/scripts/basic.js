@@ -5,13 +5,11 @@ Environment
  */
 const localData = localDataStorage('learning')
 let isDev = !window.location.hostname.includes('karumi');
-// const serverUrl = isDev ? 'http://127.0.0.2:8000/api/' : 'https://learning-app.karumi.space/api/';
-const serverUrl = 'https://127.0.0.1:8000/api/';
+const serverUrl = isDev ? 'https://127.0.0.2:8000/api/' : 'https://learning-api.karumi.space/api/';
 
 /*
 Variables
  */
-// tests
 const questionDiv = document.querySelector('#question');
 const answersDiv = document.querySelector('#answers');
 const rightAnswerDiv = document.querySelector('#correctAnswer');
@@ -28,8 +26,3 @@ if (!Number.isInteger(resultsCountCorrect) || !Number.isInteger(resultsCountAll)
     resultsCountAll = localData.get('resultsCountAll');
 }
 let userCurrentGroup = localData.get('localGroup');
-
-/*
-API calls
- */
-

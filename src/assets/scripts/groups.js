@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function resultGetGroups(data) {
-    localData.set('localGroups', data.items.map(function (group) {
+    localData.set('localGroups', data.data.map(function (group) {
         return {id: group.id, name: group.name, language: group.language};
     }));
 }

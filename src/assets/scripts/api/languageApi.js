@@ -25,8 +25,8 @@ function apiGetLanguages() {
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);
-            resultGetLanguages(data.items);
-            renderGetLanguages(data.items);
+            resultGetLanguages(data.data);
+            renderGetLanguages(data.data);
         })
         .catch(function (error) {
             console.log(error);

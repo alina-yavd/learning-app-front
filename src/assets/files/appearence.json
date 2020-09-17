@@ -1,0 +1,384 @@
+{
+  "items": [
+    {
+      "word": "arched",
+      "translation": "дугой (брови)"
+    },
+    {
+      "word": "attractive",
+      "translation": "привлекательный"
+    },
+    {
+      "word": "bald",
+      "translation": "лысый"
+    },
+    {
+      "word": "bald patch",
+      "translation": "лысина"
+    },
+    {
+      "word": "beard",
+      "translation": "борода"
+    },
+    {
+      "word": "beautiful, lovely, pretty",
+      "translation": "красивый (о женщине или ребенке)"
+    },
+    {
+      "word": "beauty",
+      "translation": "красотка"
+    },
+    {
+      "word": "big / great toe",
+      "translation": "большой палец (на ноге)"
+    },
+    {
+      "word": "breast",
+      "translation": "грудь"
+    },
+    {
+      "word": "broad forehead",
+      "translation": "широкий лоб"
+    },
+    {
+      "word": "brows",
+      "translation": "брови"
+    },
+    {
+      "word": "bushy",
+      "translation": "густые (о бровях)"
+    },
+    {
+      "word": "chin",
+      "translation": "подбородок"
+    },
+    {
+      "word": "close-set eyes",
+      "translation": "близко посаженные глаза"
+    },
+    {
+      "word": "common",
+      "translation": "обычный"
+    },
+    {
+      "word": "complexion",
+      "translation": "цвет лица"
+    },
+    {
+      "word": "cropped head",
+      "translation": "стриженная голова"
+    },
+    {
+      "word": "curly hair",
+      "translation": "кудрявые волосы"
+    },
+    {
+      "word": "deep-set eyes",
+      "translation": "глубоко посаженные глаза"
+    },
+    {
+      "word": "dimples",
+      "translation": "ямочки (на щеках)"
+    },
+    {
+      "word": "dull glance",
+      "translation": "тусклый взгляд"
+    },
+    {
+      "word": "ear",
+      "translation": "ухо"
+    },
+    {
+      "word": "elbow",
+      "translation": "локоть"
+    },
+    {
+      "word": "face",
+      "translation": "лицо"
+    },
+    {
+      "word": "fair hair",
+      "translation": "белокурые волосы"
+    },
+    {
+      "word": "fat",
+      "translation": "толстый"
+    },
+    {
+      "word": "figure",
+      "translation": "фигура"
+    },
+    {
+      "word": "finger",
+      "translation": "палец (на руке)"
+    },
+    {
+      "word": "first tooth",
+      "translation": "молочный зуб"
+    },
+    {
+      "word": "flush",
+      "translation": "румянец"
+    },
+    {
+      "word": "foot",
+      "translation": "ступня"
+    },
+    {
+      "word": "fourth finger",
+      "translation": "безымянный палец"
+    },
+    {
+      "word": "fresh",
+      "translation": "свежий"
+    },
+    {
+      "word": "glassy eyes",
+      "translation": "тусклые глаза"
+    },
+    {
+      "word": "good-looking, handsome",
+      "translation": "красивый (о мужчине)"
+    },
+    {
+      "word": "hair-cut",
+      "translation": "стрижка"
+    },
+    {
+      "word": "height",
+      "translation": "рост"
+    },
+    {
+      "word": "hooked nose",
+      "translation": "нос крючком"
+    },
+    {
+      "word": "imposing appearance",
+      "translation": "внушительная внешность"
+    },
+    {
+      "word": "index finger, forefinger",
+      "translation": "указательный палец"
+    },
+    {
+      "word": "intelligent expression",
+      "translation": "умный взгляд"
+    },
+    {
+      "word": "knee",
+      "translation": "колено"
+    },
+    {
+      "word": "lashes",
+      "translation": "ресницы"
+    },
+    {
+      "word": "leg",
+      "translation": "нога"
+    },
+    {
+      "word": "little finger",
+      "translation": "мизинец (на руке)"
+    },
+    {
+      "word": "little toe",
+      "translation": "мизинец (на ноге)"
+    },
+    {
+      "word": "lobe",
+      "translation": "мочка"
+    },
+    {
+      "word": "locks, curls",
+      "translation": "кудри"
+    },
+    {
+      "word": "lower lip",
+      "translation": "нижняя губа"
+    },
+    {
+      "word": "middle / second finger",
+      "translation": "средний палец"
+    },
+    {
+      "word": "middle-sized",
+      "translation": "средний"
+    },
+    {
+      "word": "moustache",
+      "translation": "усы"
+    },
+    {
+      "word": "mouth",
+      "translation": "рот"
+    },
+    {
+      "word": "nail",
+      "translation": "ноготь"
+    },
+    {
+      "word": "neck",
+      "translation": "шея"
+    },
+    {
+      "word": "oval",
+      "translation": "овальный"
+    },
+    {
+      "word": "pale",
+      "translation": "бледный"
+    },
+    {
+      "word": "palm (of the hand)",
+      "translation": "ладонь"
+    },
+    {
+      "word": "penciled",
+      "translation": "нарисованные"
+    },
+    {
+      "word": "plain",
+      "translation": "простой"
+    },
+    {
+      "word": "plump",
+      "translation": "пухлый"
+    },
+    {
+      "word": "prominent ears",
+      "translation": "оттопыренные уши"
+    },
+    {
+      "word": "ring finger",
+      "translation": "безымянный палец (на правой руке)"
+    },
+    {
+      "word": "round",
+      "translation": "круглый"
+    },
+    {
+      "word": "shock of hair",
+      "translation": "шапка волос"
+    },
+    {
+      "word": "short",
+      "translation": "низкий"
+    },
+    {
+      "word": "slim",
+      "translation": "тонкий"
+    },
+    {
+      "word": "snow-white teeth",
+      "translation": "белоснежные зубы"
+    },
+    {
+      "word": "sparse hair",
+      "translation": "жидкие волосы"
+    },
+    {
+      "word": "splendid hair",
+      "translation": "пышные волосы"
+    },
+    {
+      "word": "square",
+      "translation": "квадратный"
+    },
+    {
+      "word": "stomach, belly",
+      "translation": "живот"
+    },
+    {
+      "word": "stooping",
+      "translation": "согнутый"
+    },
+    {
+      "word": "stout",
+      "translation": "полный"
+    },
+    {
+      "word": "straight",
+      "translation": "прямой"
+    },
+    {
+      "word": "tall",
+      "translation": "высокий"
+    },
+    {
+      "word": "thin",
+      "translation": "худой"
+    },
+    {
+      "word": "thumb",
+      "translation": "большой палец (на руке)"
+    },
+    {
+      "word": "to arrange",
+      "translation": "делать прическу"
+    },
+    {
+      "word": "to dye hair",
+      "translation": "красить волосы"
+    },
+    {
+      "word": "to keep fit",
+      "translation": "держать форму"
+    },
+    {
+      "word": "to paint / rouge cheeks",
+      "translation": "красить щеки"
+    },
+    {
+      "word": "to put on lipstick",
+      "translation": "красить губы"
+    },
+    {
+      "word": "to use / wear make-up",
+      "translation": "краситься"
+    },
+    {
+      "word": "toe",
+      "translation": "палец (на ноге)"
+    },
+    {
+      "word": "tongue",
+      "translation": "язык"
+    },
+    {
+      "word": "turned up",
+      "translation": "вздернутый (нос)"
+    },
+    {
+      "word": "ugly",
+      "translation": "уродливый"
+    },
+    {
+      "word": "unpleasant look in one’s eyes",
+      "translation": "тяжелый взгляд"
+    },
+    {
+      "word": "unprepossessing appearance",
+      "translation": "непривлекательная внешность"
+    },
+    {
+      "word": "upper lip",
+      "translation": "верхняя губа"
+    },
+    {
+      "word": "waist",
+      "translation": "талия"
+    },
+    {
+      "word": "wavy hair",
+      "translation": "волнистые волосы"
+    },
+    {
+      "word": "weight",
+      "translation": "вес"
+    },
+    {
+      "word": "wrist",
+      "translation": "запястье"
+    }
+  ]
+}

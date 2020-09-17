@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "word": "absorber, bumper",
+      "translation": "бампер"
+    },
+    {
+      "word": "accelerator",
+      "translation": "акселератор"
+    },
+    {
+      "word": "accumulator, battery",
+      "translation": "аккумулятор"
+    },
+    {
+      "word": "armrest",
+      "translation": "подлокотник"
+    },
+    {
+      "word": "back door",
+      "translation": "задняя дверь"
+    },
+    {
+      "word": "bonnet (BrE), hood (AmE)",
+      "translation": "капот"
+    },
+    {
+      "word": "boot",
+      "translation": "багажник"
+    },
+    {
+      "word": "brake",
+      "translation": "тормоз"
+    },
+    {
+      "word": "brake fluid",
+      "translation": "тормозная жидкость"
+    },
+    {
+      "word": "brake light",
+      "translation": "стоп-сигнал"
+    },
+    {
+      "word": "bulbs",
+      "translation": "лампы"
+    },
+    {
+      "word": "bumper",
+      "translation": "бампер"
+    },
+    {
+      "word": "cab",
+      "translation": "кабина"
+    },
+    {
+      "word": "car, automobile",
+      "translation": "машина, автомобиль"
+    },
+    {
+      "word": "car alarm",
+      "translation": "автосигнализация"
+    },
+    {
+      "word": "carburettor",
+      "translation": "карбюратор"
+    },
+    {
+      "word": "chassis",
+      "translation": "шасси"
+    },
+    {
+      "word": "clutch",
+      "translation": "сцепление"
+    },
+    {
+      "word": "cooling system",
+      "translation": "система охлаждения"
+    },
+    {
+      "word": "crankshaft",
+      "translation": "коленчатый вал"
+    },
+    {
+      "word": "cylinder",
+      "translation": "цилиндр"
+    },
+    {
+      "word": "dashboard",
+      "translation": "приборная панель"
+    },
+    {
+      "word": "diesel",
+      "translation": "дизельное топливо"
+    },
+    {
+      "word": "driver's license",
+      "translation": "водительское удостоверение"
+    },
+    {
+      "word": "electrical system",
+      "translation": "электрооборудование"
+    },
+    {
+      "word": "engine",
+      "translation": "двигатель"
+    },
+    {
+      "word": "exhaust (pipe)",
+      "translation": "выхлопная труба"
+    },
+    {
+      "word": "fan belt",
+      "translation": "ремень охлаждения"
+    },
+    {
+      "word": "fender, wing",
+      "translation": "крыло автомобиля"
+    },
+    {
+      "word": "filling station",
+      "translation": "азс"
+    },
+    {
+      "word": "fog lights",
+      "translation": "противотуманные фары"
+    },
+    {
+      "word": "front door",
+      "translation": "передняя дверь"
+    },
+    {
+      "word": "fuel gauge",
+      "translation": "указатель уровня топлива"
+    },
+    {
+      "word": "garage",
+      "translation": "гараж"
+    },
+    {
+      "word": "gear",
+      "translation": "передача"
+    },
+    {
+      "word": "gear-change shift lever",
+      "translation": "рычаг переключения передач"
+    },
+    {
+      "word": "handbrake",
+      "translation": "ручной тормоз"
+    },
+    {
+      "word": "hatchback",
+      "translation": "хэчбэк"
+    },
+    {
+      "word": "headlights",
+      "translation": "фары"
+    },
+    {
+      "word": "headrest",
+      "translation": "подголовник"
+    },
+    {
+      "word": "highway",
+      "translation": "автострада"
+    },
+    {
+      "word": "hood (AmE), bonnet (BrE)",
+      "translation": "капот"
+    },
+    {
+      "word": "horn",
+      "translation": "сигнал"
+    },
+    {
+      "word": "hubcap",
+      "translation": "колпак (колеса)"
+    },
+    {
+      "word": "ignition",
+      "translation": "зажигание"
+    },
+    {
+      "word": "jack",
+      "translation": "домкрат"
+    },
+    {
+      "word": "license plate",
+      "translation": "номерной знак"
+    },
+    {
+      "word": "lorry, truck",
+      "translation": "грузовик"
+    },
+    {
+      "word": "number plate",
+      "translation": "номерной знак"
+    },
+    {
+      "word": "oil",
+      "translation": "масло"
+    },
+    {
+      "word": "oil pump",
+      "translation": "масляный насос"
+    },
+    {
+      "word": "parking light",
+      "translation": "габаритные огни"
+    },
+    {
+      "word": "pedal",
+      "translation": "педаль"
+    },
+    {
+      "word": "petrol",
+      "translation": "бензин"
+    },
+    {
+      "word": "pump",
+      "translation": "насос"
+    },
+    {
+      "word": "radiator",
+      "translation": "радиатор"
+    },
+    {
+      "word": "rearview mirror",
+      "translation": "зеркало заднего вида"
+    },
+    {
+      "word": "road",
+      "translation": "дорога"
+    },
+    {
+      "word": "screwdriver",
+      "translation": "отвертка"
+    },
+    {
+      "word": "seatbelt",
+      "translation": "ремень безопастности"
+    },
+    {
+      "word": "sedan",
+      "translation": "седан"
+    },
+    {
+      "word": "service station",
+      "translation": "станция тех обслуживания"
+    },
+    {
+      "word": "signal",
+      "translation": "указатель поворота"
+    },
+    {
+      "word": "spanner",
+      "translation": "гаечный ключ"
+    },
+    {
+      "word": "spare parts",
+      "translation": "запчасти"
+    },
+    {
+      "word": "spark plug",
+      "translation": "свеча"
+    },
+    {
+      "word": "speedometer",
+      "translation": "спидометр"
+    },
+    {
+      "word": "spring",
+      "translation": "рессора"
+    },
+    {
+      "word": "starter",
+      "translation": "стартер"
+    },
+    {
+      "word": "steering wheel",
+      "translation": "рулевое колесо"
+    },
+    {
+      "word": "suspension",
+      "translation": "подвеска"
+    },
+    {
+      "word": "tail-light",
+      "translation": "задний фонарь"
+    },
+    {
+      "word": "tank",
+      "translation": "бензобак"
+    },
+    {
+      "word": "temperature gauge",
+      "translation": "датчик температуры"
+    },
+    {
+      "word": "tyre (BrE), tire (AmE)",
+      "translation": "шина"
+    },
+    {
+      "word": "tool",
+      "translation": "инструмент"
+    },
+    {
+      "word": "trailer",
+      "translation": "прицеп"
+    },
+    {
+      "word": "transmission, gear box",
+      "translation": "коробка передач"
+    },
+    {
+      "word": "trunk",
+      "translation": "багажник"
+    },
+    {
+      "word": "van",
+      "translation": "автофургон"
+    },
+    {
+      "word": "wheel",
+      "translation": "колесо"
+    },
+    {
+      "word": "window roller",
+      "translation": "стеклоподъёмник"
+    },
+    {
+      "word": "windscreen, windshield",
+      "translation": "ветровое стекло"
+    },
+    {
+      "word": "windscreen wiper",
+      "translation": "дворники"
+    }
+  ]
+}

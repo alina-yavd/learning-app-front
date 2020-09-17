@@ -8,7 +8,7 @@ function apiGetGroups(language, translation) {
         .then(function (data) {
             console.log(data);
             resultGetGroups(data);
-            renderGetGroups(data.items);
+            renderGetGroups(data.data);
         })
         .catch(function (error) {
             console.log(error);
@@ -24,7 +24,7 @@ function apiGetGroup(id) {
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);
-            renderGetGroup(data.item);
+            renderGetGroup(data.data);
         })
         .catch(function (error) {
             console.log(error);
