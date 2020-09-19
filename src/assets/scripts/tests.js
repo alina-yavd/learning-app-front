@@ -64,7 +64,7 @@ function createAnswers(data) {
     questionDiv.innerHTML = `${question.text}`;
     questionDiv.setAttribute('data-id', `${question.id}`);
     answersDiv.innerHTML = '';
-    let answers = data.answers;
+    let answers = data.answers.data;
     return answers.map(function (answer) {
         let el = createNode('div', 'answer');
         el.innerHTML = `${answer.text}`;
