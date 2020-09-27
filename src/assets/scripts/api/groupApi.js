@@ -40,10 +40,17 @@ function apiDeleteGroup(id) {
         body: postData
     }
     fetch(url, fetchData)
-        .then((resp) => resp.json())
+        .then(function (resp){
+            if (!resp.ok) {
+                return resp.json()
+            }
+        })
         .then(function (data) {
-            console.log(data);
-            resultDeleteGroup(data, id);
+            if (!!data) {
+                alert(data.message);
+            } else {
+                document.querySelector('.group[data-id="' + id + '"]').remove();
+            }
         })
         .catch(function (error) {
             console.log(error);

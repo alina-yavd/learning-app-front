@@ -6,9 +6,17 @@ function apiUploadWords() {
         body: formData
     });
     fetch(request)
-        .then((resp) => resp.json())
+        .then(function (resp){
+            if (!resp.ok) {
+                return resp.json()
+            }
+        })
         .then(function (data) {
-            resultUploadWords(data);
+            if (!!data) {
+                resultUploadWords(data);
+            } else {
+                location.reload();
+            }
         })
         .catch(function (error) {
             console.log(error);

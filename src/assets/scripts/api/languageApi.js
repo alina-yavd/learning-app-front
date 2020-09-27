@@ -6,12 +6,16 @@ function apiCreateLanguage() {
         body: formData
     });
     fetch(request)
-        .then((resp) => resp.json())
+        .then(function (resp){
+            if (!resp.ok) {
+                return resp.json()
+            }
+        })
         .then(function (data) {
-            if (data.status === 'success') {
-                location.reload();
-            } else {
+            if (!!data) {
                 alert(data.message);
+            } else {
+                location.reload();
             }
         })
         .catch(function (error) {
