@@ -3,6 +3,7 @@ function apiUploadWords() {
     let url = serverUrl + 'upload';
     let request = new Request(url, {
         method: 'POST',
+        headers: getAuthHeader(),
         body: formData
     });
     fetch(request)

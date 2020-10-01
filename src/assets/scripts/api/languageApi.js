@@ -3,6 +3,7 @@ function apiCreateLanguage() {
     let url = serverUrl + 'language/create';
     let request = new Request(url, {
         method: 'POST',
+        headers: getAuthHeader(),
         body: formData
     });
     fetch(request)
@@ -25,7 +26,9 @@ function apiCreateLanguage() {
 
 function apiGetLanguages() {
     let url = serverUrl + 'language';
-    fetch(url)
+    fetch(url, {
+        headers: getAuthHeader(),
+    })
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);

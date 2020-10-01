@@ -5,9 +5,7 @@ function apiGetUser() {
     }
     let url = serverUrl + 'user';
     fetch(url, {
-        headers: new Headers({
-            'Authorization': 'Bearer ' + localData.forceget('accessToken'),
-        }),
+        headers: getAuthHeader(),
     })
         .then(function (resp) {
             return resp.json()
@@ -53,10 +51,8 @@ function apiUpdateUser() {
     let url = serverUrl + 'user';
     let request = new Request(url, {
         method: 'POST',
+        headers: getAuthHeader(),
         body: formData,
-        headers: new Headers({
-            'Authorization': 'Bearer ' + localData.forceget('accessToken'),
-        })
     });
     fetch(request)
         .then(function (resp){

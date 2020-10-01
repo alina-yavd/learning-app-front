@@ -26,3 +26,13 @@ if (!Number.isInteger(resultsCountCorrect) || !Number.isInteger(resultsCountAll)
     resultsCountAll = localData.get('resultsCountAll');
 }
 let userCurrentGroup = localData.get('localGroup');
+
+function getAuthHeader(){
+    if (localData.forceget('accessToken')) {
+        return new Headers({
+            'Authorization': 'Bearer ' + localData.forceget('accessToken'),
+        });
+    } else {
+        return new Headers();
+    }
+}

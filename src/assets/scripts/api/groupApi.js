@@ -3,7 +3,9 @@ function apiGetGroups(language, translation) {
     if (!!language || !!translation) {
         url += '?language=' + language + '&translation=' + translation;
     }
-    fetch(url)
+    fetch(url, {
+        headers: getAuthHeader(),
+    })
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);
@@ -20,7 +22,9 @@ function apiGetGroup(id) {
         return;
     }
     let url = serverUrl + 'group/' + id;
-    fetch(url)
+    fetch(url, {
+        headers: getAuthHeader(),
+    })
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);
@@ -35,8 +39,8 @@ function apiDeleteGroup(id) {
     let url = serverUrl + 'group/' + id;
     let postData = new FormData;
     let fetchData = {
-        headers: new Headers(),
         method: 'DELETE',
+        headers: new Headers(),
         body: postData
     }
     fetch(url, fetchData)

@@ -17,10 +17,10 @@ function apiRefreshToken() {
     let url = serverUrl + 'auth/refresh';
     let request = new Request(url, {
         method: 'POST',
-        body: formData,
         headers: new Headers({
             'Authorization': 'Basic ' + localData.forceget('refreshToken'),
-        })
+        }),
+        body: formData,
     });
     apiGenerateToken(request, 'refresh');
 }
@@ -40,14 +40,16 @@ function apiGenerateToken(request, type) {
 
 function apiLogoutUser() {
     let url = serverUrl + 'auth/logout';
-    fetch(url);
+    fetch(url, {
+        headers: getAuthHeader(),
+    });
     localData.remove('accessToken');
     localData.remove('refreshToken');
     redirectUserNotAuthorized();
     return false;
 }
 
-function apiGenerateTokenResponse(data, type){
+function apiGenerateTokenResponse(data, type) {
     console.log(data);
     if (!data.token) {
         let message = !!data.message ? data.message : 'Что-то пошло не так, пожалуйста перезагрузите страницу и попробуйте снова.'

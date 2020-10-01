@@ -3,7 +3,9 @@ function apiGetTest() {
     if (!!userCurrentGroup) {
         url += '?groupId=' + userCurrentGroup.id;
     }
-    fetch(url)
+    fetch(url, {
+        headers: getAuthHeader(),
+    })
         .then((resp) => resp.json())
         .then(function (data) {
             console.log(data);
@@ -25,8 +27,8 @@ function apiSubmitAnswer() {
     postData.append('wordId', word);
     postData.append('answerId', answer);
     let fetchData = {
-        headers: new Headers(),
         method: 'POST',
+        headers: getAuthHeader(),
         body: postData
     }
     let url = serverUrl + 'test';
