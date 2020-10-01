@@ -62,4 +62,14 @@ $app->route->get('/upload', function () use ($twig) {
     echo $template->render(['path' => app('request')->path]);
 });
 
+$app->route->get('/auth', function () use ($twig) {
+    $template = $twig->load('auth.html.twig');
+    echo $template->render(['path' => app('request')->path]);
+});
+
+$app->route->get('/profile', function () use ($twig) {
+    $template = $twig->load('profile.html.twig');
+    echo $template->render(['path' => app('request')->path]);
+});
+
 $app->route->end();

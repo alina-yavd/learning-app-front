@@ -441,7 +441,7 @@ section {
 
 section:not(.tests) {
   padding: 40px 0; }
-  section:not(.tests).language {
+  section:not(.tests).language, section:not(.tests).auth + .auth, section:not(.tests).profile + .progress {
     padding-top: 0; }
 
 /* Tests Page */
@@ -1031,6 +1031,16 @@ form {
     color: #0b8a3b; }
   form .message-error {
     color: #bd0d22; }
+  form .title-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; }
+
+.logout-link {
+  color: #bd0d22;
+  text-decoration: underline;
+  cursor: pointer; }
 
 :root {
   --color-primary: #408697;

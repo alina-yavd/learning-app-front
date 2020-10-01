@@ -282,7 +282,9 @@ section {
 section:not(.tests) {
   padding: 40px 0;
 
-  &.language {
+  &.language,
+  &.auth + .auth,
+  &.profile + .progress {
     padding-top: 0;
   }
 }
@@ -1071,4 +1073,17 @@ form {
   .message-error {
     color: #bd0d22;
   }
+
+  .title-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.logout-link {
+  color: #bd0d22;
+  text-decoration: underline;
+  cursor: pointer;
 }

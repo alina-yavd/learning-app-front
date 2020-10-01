@@ -1,0 +1,67 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main class="site-main">
+        <div class="container">
+
+            <section class="auth">
+                <form class="login-form" id="login-form" method="post">
+                    <h2>Войти на сайт</h2>
+                    <div class="fields">
+                        <div class="field field-s">
+                            <label>
+                                <span>E-mail</span>
+                                <input type="email" name="email">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Пароль</span>
+                                <input type="password" name="password">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn btn-bg">Войти</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="auth">
+                <form class="register-form" id="register-form" method="post">
+                    <h2>Зарегистрироваться</h2>
+                    <div class="fields">
+                        <div class="field field-s">
+                            <label>
+                                <span>E-mail</span>
+                                <input type="email" name="email">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Пароль</span>
+                                <input type="password" name="password">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Имя</span>
+                                <input type="text" name="firstName">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Фамилия</span>
+                                <input type="text" name="lastName">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn btn-bg">Зарегистрироваться</button>
+                    </div>
+                </form>
+            </section>
+
+        </div>
+    </main>
+{% endblock %}

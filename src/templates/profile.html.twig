@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main class="site-main">
+        <div class="container">
+
+            <section class="auth">
+                <form class="profile-form" id="profile-form" method="post">
+                    <div class="title-wrap">
+                        <h2>Мой профиль</h2>
+                        <div class="logout-link">Выйти с сайта</div>
+                    </div>
+                    <div class="fields">
+                        <div class="field">
+                            <label>
+                                <span>E-mail</span>
+                                <input type="email" name="email">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Имя</span>
+                                <input type="text" name="firstName">
+                            </label>
+                        </div>
+                        <div class="field field-s">
+                            <label>
+                                <span>Фамилия</span>
+                                <input type="text" name="lastName">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="submit-btn">
+                        <button type="submit" class="btn btn-bg">Сохранить</button>
+                    </div>
+                </form>
+            </section>
+
+        </div>
+    </main>
+{% endblock %}

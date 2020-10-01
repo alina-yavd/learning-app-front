@@ -5,7 +5,7 @@ Environment
  */
 const localData = localDataStorage('learning')
 let isDev = !window.location.hostname.includes('karumi');
-const serverUrl = isDev ? 'https://127.0.0.2:8000/api/' : 'https://learning-api.karumi.space/api/';
+const serverUrl = isDev ? 'https://127.0.0.1:8001/api/' : 'https://learning-api.karumi.space/api/';
 
 /*
 Variables

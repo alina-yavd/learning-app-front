@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
-    apiGetTest();
+    if (answersDiv !== null) {
+        apiGetTest();
+    }
 
     if (!!resultsCountSpan) {
         resultsCountSpan.innerHTML = `${resultsCountCorrect}/${resultsCountAll}`;
