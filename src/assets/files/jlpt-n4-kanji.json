@@ -1,0 +1,2060 @@
+{
+  "items": [
+    {
+      "word": "～代",
+      "translation": "～ age/period"
+    },
+    {
+      "word": "～会",
+      "translation": "～ meeting"
+    },
+    {
+      "word": "～区",
+      "translation": "district ～"
+    },
+    {
+      "word": "～君",
+      "translation": "Mr (junior) ～, master ～"
+    },
+    {
+      "word": "～員",
+      "translation": "member of ～"
+    },
+    {
+      "word": "～始める",
+      "translation": "to start doing　～, the beginning of ～"
+    },
+    {
+      "word": "～学部",
+      "translation": "department of a university"
+    },
+    {
+      "word": "～家",
+      "translation": "professional ～"
+    },
+    {
+      "word": "～式",
+      "translation": "ceremony"
+    },
+    {
+      "word": "～月",
+      "translation": "month"
+    },
+    {
+      "word": "～様",
+      "translation": "Mr or Mrs ～"
+    },
+    {
+      "word": "～町",
+      "translation": "～ of the town"
+    },
+    {
+      "word": "～目",
+      "translation": "number ～ sequence, ～nd/th"
+    },
+    {
+      "word": "～続ける",
+      "translation": "to continue doing ～"
+    },
+    {
+      "word": "～製",
+      "translation": "made in　～"
+    },
+    {
+      "word": "～軒",
+      "translation": "counter for houses"
+    },
+    {
+      "word": "お・金持ち",
+      "translation": "rich man"
+    },
+    {
+      "word": "お土産",
+      "translation": "souvenir"
+    },
+    {
+      "word": "お嬢さん",
+      "translation": "(1) (hon) daughter, (2) young lady"
+    },
+    {
+      "word": "お子さん",
+      "translation": "(someone else's) child"
+    },
+    {
+      "word": "お宅",
+      "translation": "(pol) your house, your home"
+    },
+    {
+      "word": "お礼",
+      "translation": "thanking, expression of gratitude"
+    },
+    {
+      "word": "お祝い",
+      "translation": "congratulation, celebration"
+    },
+    {
+      "word": "お祭り",
+      "translation": "festival"
+    },
+    {
+      "word": "お見舞い",
+      "translation": "calling on someone who is ill, enquiry"
+    },
+    {
+      "word": "ご主人",
+      "translation": "your husband, her husband"
+    },
+    {
+      "word": "ご存じ",
+      "translation": "knowing, acquaintance"
+    },
+    {
+      "word": "さ来月",
+      "translation": "the month after next"
+    },
+    {
+      "word": "さ来週",
+      "translation": "the week after next"
+    },
+    {
+      "word": "一度",
+      "translation": "once, one time"
+    },
+    {
+      "word": "一生懸命",
+      "translation": "as well as one can, with utmost effort"
+    },
+    {
+      "word": "丁寧",
+      "translation": "polite, courteous"
+    },
+    {
+      "word": "上がる",
+      "translation": "to rise, to go up"
+    },
+    {
+      "word": "下げる",
+      "translation": "to hang, to lower, to move back"
+    },
+    {
+      "word": "下りる",
+      "translation": "to descend a mountain, to (descend) go down stairs"
+    },
+    {
+      "word": "下る",
+      "translation": "to get down, to descend"
+    },
+    {
+      "word": "下宿",
+      "translation": "boarding, lodging, boarding house"
+    },
+    {
+      "word": "下着",
+      "translation": "underwear"
+    },
+    {
+      "word": "不便",
+      "translation": "inconvenience"
+    },
+    {
+      "word": "世界",
+      "translation": "the world"
+    },
+    {
+      "word": "世話",
+      "translation": "looking after, help"
+    },
+    {
+      "word": "両方",
+      "translation": "both sides, both parties"
+    },
+    {
+      "word": "中々",
+      "translation": "very, considerably, quite"
+    },
+    {
+      "word": "中学校",
+      "translation": "junior high school, middle school pupil"
+    },
+    {
+      "word": "久しぶり",
+      "translation": "after a long time"
+    },
+    {
+      "word": "乗り換える",
+      "translation": "to transfer (trains), to change (bus, train)"
+    },
+    {
+      "word": "乗り物",
+      "translation": "vehicle"
+    },
+    {
+      "word": "乾く",
+      "translation": "to get dry"
+    },
+    {
+      "word": "予定",
+      "translation": "plans, arrangement, schedule"
+    },
+    {
+      "word": "予約",
+      "translation": "reservation, booking"
+    },
+    {
+      "word": "予習",
+      "translation": "preparation for a lesson"
+    },
+    {
+      "word": "事務所",
+      "translation": "office"
+    },
+    {
+      "word": "事故",
+      "translation": "accident"
+    },
+    {
+      "word": "亡くなる",
+      "translation": "to die"
+    },
+    {
+      "word": "交通",
+      "translation": "traffic, transportation"
+    },
+    {
+      "word": "人口",
+      "translation": "population"
+    },
+    {
+      "word": "人形",
+      "translation": "doll, puppet, figure"
+    },
+    {
+      "word": "今夜",
+      "translation": "this evening, tonight"
+    },
+    {
+      "word": "今度",
+      "translation": "now, next time"
+    },
+    {
+      "word": "仕方",
+      "translation": "way, method"
+    },
+    {
+      "word": "代わり",
+      "translation": "substitute, alternate"
+    },
+    {
+      "word": "以上",
+      "translation": "more than, this is all"
+    },
+    {
+      "word": "以下",
+      "translation": "less than, below"
+    },
+    {
+      "word": "以内",
+      "translation": "within, inside of"
+    },
+    {
+      "word": "以外",
+      "translation": "with the exception of, excepting"
+    },
+    {
+      "word": "会場",
+      "translation": "assembly hall, meeting place, the grounds"
+    },
+    {
+      "word": "会話",
+      "translation": "conversation"
+    },
+    {
+      "word": "会議",
+      "translation": "meeting, conference"
+    },
+    {
+      "word": "会議室",
+      "translation": "conference room"
+    },
+    {
+      "word": "伝える",
+      "translation": "to tell, to report"
+    },
+    {
+      "word": "似る",
+      "translation": "to resemble, to be similar"
+    },
+    {
+      "word": "住所",
+      "translation": "address (eg of house), residence, domicile"
+    },
+    {
+      "word": "例えば",
+      "translation": "for example, eg."
+    },
+    {
+      "word": "倍",
+      "translation": "twice, double"
+    },
+    {
+      "word": "倒れる",
+      "translation": "to collapse, to break down"
+    },
+    {
+      "word": "僕",
+      "translation": "(male) I, manservant"
+    },
+    {
+      "word": "億",
+      "translation": "100,000,000, hundred million"
+    },
+    {
+      "word": "優しい",
+      "translation": "kind, gentle"
+    },
+    {
+      "word": "先輩",
+      "translation": "senior, superior, elder"
+    },
+    {
+      "word": "光",
+      "translation": "light"
+    },
+    {
+      "word": "光る",
+      "translation": "to shine, to glitter"
+    },
+    {
+      "word": "入学",
+      "translation": "entry to school or university, matriculation"
+    },
+    {
+      "word": "入院",
+      "translation": "hospitalization"
+    },
+    {
+      "word": "公務員",
+      "translation": "government worker, public servant"
+    },
+    {
+      "word": "具合",
+      "translation": "condition, state, health"
+    },
+    {
+      "word": "最初",
+      "translation": "beginning, first"
+    },
+    {
+      "word": "最後",
+      "translation": "last, end, conclusion"
+    },
+    {
+      "word": "最近",
+      "translation": "latest, most recent, nowadays"
+    },
+    {
+      "word": "写す",
+      "translation": "copy, to photograph, to film"
+    },
+    {
+      "word": "冷える",
+      "translation": "to grow cold, to get chilly, to cool down"
+    },
+    {
+      "word": "冷房",
+      "translation": "cooling, air conditioning"
+    },
+    {
+      "word": "凄い",
+      "translation": "terrific, amazing, to a great extent"
+    },
+    {
+      "word": "出席",
+      "translation": "attendance, presence"
+    },
+    {
+      "word": "出発",
+      "translation": "departure"
+    },
+    {
+      "word": "別",
+      "translation": "distinction, different"
+    },
+    {
+      "word": "別れる",
+      "translation": "to be divided, to part from, to separate"
+    },
+    {
+      "word": "利用",
+      "translation": "use, utilization"
+    },
+    {
+      "word": "割れる",
+      "translation": "to break"
+    },
+    {
+      "word": "割合",
+      "translation": "rate, ratio, percentage"
+    },
+    {
+      "word": "力",
+      "translation": "strength, power"
+    },
+    {
+      "word": "動く",
+      "translation": "to move"
+    },
+    {
+      "word": "動物園",
+      "translation": "zoo"
+    },
+    {
+      "word": "勝つ",
+      "translation": "to win, to gain victory"
+    },
+    {
+      "word": "包む",
+      "translation": "wrap, pack"
+    },
+    {
+      "word": "医学",
+      "translation": "medical science"
+    },
+    {
+      "word": "十分",
+      "translation": "enough , sufficient"
+    },
+    {
+      "word": "卒業",
+      "translation": "graduation"
+    },
+    {
+      "word": "危険",
+      "translation": "danger, peril, hazard"
+    },
+    {
+      "word": "原因",
+      "translation": "cause, origin, source"
+    },
+    {
+      "word": "厳しい",
+      "translation": "strict"
+    },
+    {
+      "word": "参る",
+      "translation": "(1) (hum) to go, to come"
+    },
+    {
+      "word": "反対",
+      "translation": "oppose, opposition, resistance"
+    },
+    {
+      "word": "取り替える",
+      "translation": "to exchange, to replace"
+    },
+    {
+      "word": "受ける",
+      "translation": "to take (lesson, test), to undergo"
+    },
+    {
+      "word": "受付",
+      "translation": "reception (desk), information ガス"
+    },
+    {
+      "word": "召し上がる",
+      "translation": "(pol) to eat"
+    },
+    {
+      "word": "台風",
+      "translation": "typhoon"
+    },
+    {
+      "word": "合う",
+      "translation": "to fit, to match"
+    },
+    {
+      "word": "向かう",
+      "translation": "to face, to go towards"
+    },
+    {
+      "word": "君",
+      "translation": "You (masculine term for female)"
+    },
+    {
+      "word": "周り",
+      "translation": "surroundings, circulation"
+    },
+    {
+      "word": "味",
+      "translation": "flavor, taste"
+    },
+    {
+      "word": "味噌",
+      "translation": "miso, bean paste"
+    },
+    {
+      "word": "品物",
+      "translation": "goods"
+    },
+    {
+      "word": "喜ぶ",
+      "translation": "to be delighted, to be glad"
+    },
+    {
+      "word": "噛む",
+      "translation": "to bite, to chew"
+    },
+    {
+      "word": "回る",
+      "translation": "to go around, to revolve"
+    },
+    {
+      "word": "国際",
+      "translation": "international"
+    },
+    {
+      "word": "地理",
+      "translation": "geography"
+    },
+    {
+      "word": "地震",
+      "translation": "earthquake"
+    },
+    {
+      "word": "坂",
+      "translation": "slope, hill"
+    },
+    {
+      "word": "堅/硬/固い",
+      "translation": "solid, hard, firm"
+    },
+    {
+      "word": "場合",
+      "translation": "case, situation"
+    },
+    {
+      "word": "場所",
+      "translation": "place, location"
+    },
+    {
+      "word": "塗る",
+      "translation": "to paint, to plaster"
+    },
+    {
+      "word": "増える",
+      "translation": "to increase, to multiply"
+    },
+    {
+      "word": "壁",
+      "translation": "wall"
+    },
+    {
+      "word": "壊す",
+      "translation": "to break, to break down"
+    },
+    {
+      "word": "壊れる",
+      "translation": "to be broken, to break"
+    },
+    {
+      "word": "売り場",
+      "translation": "place where things are sold"
+    },
+    {
+      "word": "変",
+      "translation": "strange, odd, peculiar"
+    },
+    {
+      "word": "変える",
+      "translation": "to change, to alter, to vary"
+    },
+    {
+      "word": "変わる",
+      "translation": "to change, to be transformed, to vary"
+    },
+    {
+      "word": "夕飯",
+      "translation": "evening meal"
+    },
+    {
+      "word": "夢",
+      "translation": "dream"
+    },
+    {
+      "word": "大事",
+      "translation": "important, valuable, serious matter"
+    },
+    {
+      "word": "大体",
+      "translation": "generally, substantially"
+    },
+    {
+      "word": "大分",
+      "translation": "considerably, greatly, a lot"
+    },
+    {
+      "word": "大学生",
+      "translation": "college student, university student"
+    },
+    {
+      "word": "天気予報",
+      "translation": "weather forecast, weather report"
+    },
+    {
+      "word": "太る",
+      "translation": "to grow fat (stout, plump), to become fat"
+    },
+    {
+      "word": "夫",
+      "translation": "husband"
+    },
+    {
+      "word": "失敗",
+      "translation": "failure, mistake, blunder"
+    },
+    {
+      "word": "失礼",
+      "translation": "(1) discourtesy, impoliteness, (2) Excuse me, Goodbye"
+    },
+    {
+      "word": "女性",
+      "translation": "woman"
+    },
+    {
+      "word": "妻",
+      "translation": "(hum) wife"
+    },
+    {
+      "word": "始める",
+      "translation": "to start, to begin"
+    },
+    {
+      "word": "娘",
+      "translation": "(hum) daughter"
+    },
+    {
+      "word": "子",
+      "translation": "child"
+    },
+    {
+      "word": "字",
+      "translation": "character, hand-writing"
+    },
+    {
+      "word": "季節",
+      "translation": "season"
+    },
+    {
+      "word": "安全",
+      "translation": "safety, security"
+    },
+    {
+      "word": "安心",
+      "translation": "peace of mind, relief"
+    },
+    {
+      "word": "客",
+      "translation": "guest, customer"
+    },
+    {
+      "word": "家内",
+      "translation": "housewife"
+    },
+    {
+      "word": "寂しい",
+      "translation": "lonely, lonesome"
+    },
+    {
+      "word": "寄る",
+      "translation": "to visit, to drop in"
+    },
+    {
+      "word": "寝坊",
+      "translation": "sleeping in late"
+    },
+    {
+      "word": "寺",
+      "translation": "temple"
+    },
+    {
+      "word": "専門",
+      "translation": "speciality, study major"
+    },
+    {
+      "word": "将来",
+      "translation": "future, prospects"
+    },
+    {
+      "word": "尋ねる",
+      "translation": "to ask"
+    },
+    {
+      "word": "小学校",
+      "translation": "primary school, elementary school"
+    },
+    {
+      "word": "小説",
+      "translation": "novel, story"
+    },
+    {
+      "word": "小鳥",
+      "translation": "small bird"
+    },
+    {
+      "word": "届ける",
+      "translation": "to reach"
+    },
+    {
+      "word": "屋上",
+      "translation": "rooftop"
+    },
+    {
+      "word": "展覧会",
+      "translation": "exhibition"
+    },
+    {
+      "word": "島",
+      "translation": "island"
+    },
+    {
+      "word": "工場",
+      "translation": "factory"
+    },
+    {
+      "word": "工業",
+      "translation": "(manufacturing) industry"
+    },
+    {
+      "word": "差し上げる",
+      "translation": "(polite) to give, to offer"
+    },
+    {
+      "word": "市",
+      "translation": "city"
+    },
+    {
+      "word": "市民",
+      "translation": "citizen"
+    },
+    {
+      "word": "布団",
+      "translation": "bedding (Japanese style), futon"
+    },
+    {
+      "word": "席",
+      "translation": "seat"
+    },
+    {
+      "word": "帰り",
+      "translation": "return, coming back"
+    },
+    {
+      "word": "店員",
+      "translation": "shop assistant, employee, clerk, salesperson"
+    },
+    {
+      "word": "建て",
+      "translation": "two storied, separate housing"
+    },
+    {
+      "word": "建てる",
+      "translation": "to build, to construct"
+    },
+    {
+      "word": "引き出し",
+      "translation": "drawer, drawing out"
+    },
+    {
+      "word": "引っ越す",
+      "translation": "to move, to change residence"
+    },
+    {
+      "word": "形",
+      "translation": "shape"
+    },
+    {
+      "word": "役に立つ",
+      "translation": "to be helpful, to be useful"
+    },
+    {
+      "word": "彼",
+      "translation": "he, boyfriend"
+    },
+    {
+      "word": "彼ら",
+      "translation": "they (usually male)"
+    },
+    {
+      "word": "彼女",
+      "translation": "she, girl-friend"
+    },
+    {
+      "word": "御～",
+      "translation": "honourable ～"
+    },
+    {
+      "word": "復習",
+      "translation": "review, revision"
+    },
+    {
+      "word": "心",
+      "translation": "core, heart"
+    },
+    {
+      "word": "心配",
+      "translation": "worry, concern"
+    },
+    {
+      "word": "必ず",
+      "translation": "certainly, necessarily, invariably"
+    },
+    {
+      "word": "必要",
+      "translation": "necessary, essential"
+    },
+    {
+      "word": "忘れ物",
+      "translation": "lost article, something forgotten"
+    },
+    {
+      "word": "怒る",
+      "translation": "to get angry, to be angry"
+    },
+    {
+      "word": "怖い",
+      "translation": "scary, frightening"
+    },
+    {
+      "word": "思い出す",
+      "translation": "to recall, to remember"
+    },
+    {
+      "word": "思う",
+      "translation": "to think, to feel"
+    },
+    {
+      "word": "急",
+      "translation": "(1) urgent, sudden, (2) steep"
+    },
+    {
+      "word": "急ぐ",
+      "translation": "to hurry, to rush"
+    },
+    {
+      "word": "急行",
+      "translation": "express (eg train that bypasses stations)"
+    },
+    {
+      "word": "恥ずかしい",
+      "translation": "shy, ashamed, embarrassed"
+    },
+    {
+      "word": "息子",
+      "translation": "(hum) son"
+    },
+    {
+      "word": "悲しい",
+      "translation": "sad, sorrowful"
+    },
+    {
+      "word": "意見",
+      "translation": "opinion, view"
+    },
+    {
+      "word": "慣れる",
+      "translation": "to grow accustomed to"
+    },
+    {
+      "word": "戦争",
+      "translation": "war"
+    },
+    {
+      "word": "戻る",
+      "translation": "to turn back, to return"
+    },
+    {
+      "word": "手伝う",
+      "translation": "to help, to assist, to take part in"
+    },
+    {
+      "word": "手袋",
+      "translation": "glove"
+    },
+    {
+      "word": "打つ",
+      "translation": "to hit, to strike"
+    },
+    {
+      "word": "払う",
+      "translation": "to pay"
+    },
+    {
+      "word": "承知",
+      "translation": "consent, acceptance"
+    },
+    {
+      "word": "技術",
+      "translation": "art, technique, technology, skill"
+    },
+    {
+      "word": "投げる",
+      "translation": "to throw, to cast away"
+    },
+    {
+      "word": "折る",
+      "translation": "to break, to fold, to pick a flower"
+    },
+    {
+      "word": "折れる",
+      "translation": "to break, to be folded, to give in, to turn (a corner)"
+    },
+    {
+      "word": "押し入れ",
+      "translation": "closet"
+    },
+    {
+      "word": "招待",
+      "translation": "invitation"
+    },
+    {
+      "word": "拝見",
+      "translation": "(hum) (pol) seeing, look at"
+    },
+    {
+      "word": "拾う",
+      "translation": "to pick up, to find, to gather"
+    },
+    {
+      "word": "指",
+      "translation": "finger"
+    },
+    {
+      "word": "指輪",
+      "translation": "(finger) ring"
+    },
+    {
+      "word": "捕まえる",
+      "translation": "to catch, to arrest, to seize"
+    },
+    {
+      "word": "捨てる",
+      "translation": "to throw away"
+    },
+    {
+      "word": "掛ける",
+      "translation": "to hang, to put on (eg wall)"
+    },
+    {
+      "word": "探す",
+      "translation": "to search, to seek, to look for"
+    },
+    {
+      "word": "揺れる",
+      "translation": "to shake, to sway"
+    },
+    {
+      "word": "支度",
+      "translation": "preparation"
+    },
+    {
+      "word": "放送",
+      "translation": "broadcast, broadcasting"
+    },
+    {
+      "word": "政治",
+      "translation": "politics, government"
+    },
+    {
+      "word": "故障",
+      "translation": "break-down"
+    },
+    {
+      "word": "教会",
+      "translation": "church"
+    },
+    {
+      "word": "教育",
+      "translation": "training, education"
+    },
+    {
+      "word": "数学",
+      "translation": "mathematics, arithmetic"
+    },
+    {
+      "word": "文化",
+      "translation": "culture, civilization"
+    },
+    {
+      "word": "文学",
+      "translation": "literature"
+    },
+    {
+      "word": "文法",
+      "translation": "grammar"
+    },
+    {
+      "word": "新聞社",
+      "translation": "newspaper company"
+    },
+    {
+      "word": "方",
+      "translation": "way of doing"
+    },
+    {
+      "word": "旅館",
+      "translation": "Japanese hotel, inn"
+    },
+    {
+      "word": "日",
+      "translation": "sun, sunshine, day"
+    },
+    {
+      "word": "日記",
+      "translation": "diary, journal"
+    },
+    {
+      "word": "明日",
+      "translation": "tomorrow"
+    },
+    {
+      "word": "昔",
+      "translation": "olden days, former"
+    },
+    {
+      "word": "星",
+      "translation": "star"
+    },
+    {
+      "word": "昼休み",
+      "translation": "lunch break, noon recess, noon rest period"
+    },
+    {
+      "word": "昼間",
+      "translation": "daytime, during the day"
+    },
+    {
+      "word": "時代",
+      "translation": "period, epoch, era"
+    },
+    {
+      "word": "普通",
+      "translation": "(1) generally, ordinarily, usually, (2) train that stops at every station"
+    },
+    {
+      "word": "景色",
+      "translation": "scenery, scene, landscape"
+    },
+    {
+      "word": "暖房",
+      "translation": "heating"
+    },
+    {
+      "word": "暮れる",
+      "translation": "to get dark, to come to an end"
+    },
+    {
+      "word": "木綿",
+      "translation": "cotton"
+    },
+    {
+      "word": "林",
+      "translation": "woods, forester"
+    },
+    {
+      "word": "枝",
+      "translation": "branch, twig"
+    },
+    {
+      "word": "柔らかい",
+      "translation": "soft, tender"
+    },
+    {
+      "word": "柔道",
+      "translation": "judo"
+    },
+    {
+      "word": "校長",
+      "translation": "principal, headmaster"
+    },
+    {
+      "word": "案内",
+      "translation": "information, guidance"
+    },
+    {
+      "word": "棚",
+      "translation": "shelves, rack"
+    },
+    {
+      "word": "森",
+      "translation": "forest"
+    },
+    {
+      "word": "植える",
+      "translation": "to plant, to grow"
+    },
+    {
+      "word": "楽しみ",
+      "translation": "pleasure, joy"
+    },
+    {
+      "word": "楽む",
+      "translation": "to enjoy oneself"
+    },
+    {
+      "word": "様",
+      "translation": "way, manner, kind"
+    },
+    {
+      "word": "機会",
+      "translation": "chance, opportunity"
+    },
+    {
+      "word": "止める",
+      "translation": "to stop (something)"
+    },
+    {
+      "word": "止める",
+      "translation": "to end, to stop, to resign"
+    },
+    {
+      "word": "正しい",
+      "translation": "right, just, correct"
+    },
+    {
+      "word": "正月",
+      "translation": "New Year, New Year's Day"
+    },
+    {
+      "word": "歯医者",
+      "translation": "dentist"
+    },
+    {
+      "word": "歴史",
+      "translation": "history"
+    },
+    {
+      "word": "残る",
+      "translation": "to remain, to be left"
+    },
+    {
+      "word": "残念",
+      "translation": "bad luck, disappointment"
+    },
+    {
+      "word": "比べる",
+      "translation": "to compare"
+    },
+    {
+      "word": "毛",
+      "translation": "hair"
+    },
+    {
+      "word": "毛",
+      "translation": "fur"
+    },
+    {
+      "word": "気",
+      "translation": "spirit, mood"
+    },
+    {
+      "word": "気分",
+      "translation": "feeling, mood"
+    },
+    {
+      "word": "気持ち",
+      "translation": "feeling, sensation, mood"
+    },
+    {
+      "word": "水泳",
+      "translation": "swimming"
+    },
+    {
+      "word": "水道",
+      "translation": "water service, water supply"
+    },
+    {
+      "word": "汚れる",
+      "translation": "to get dirty, to become dirty"
+    },
+    {
+      "word": "決して",
+      "translation": "never"
+    },
+    {
+      "word": "決める",
+      "translation": "to decide"
+    },
+    {
+      "word": "決る",
+      "translation": "to be decided, to be settled"
+    },
+    {
+      "word": "汽車",
+      "translation": "train (steam)"
+    },
+    {
+      "word": "沸かす",
+      "translation": "to boil, to heat"
+    },
+    {
+      "word": "沸く",
+      "translation": "to boil, to grow hot, to get excited"
+    },
+    {
+      "word": "治る",
+      "translation": "to be cured, to heal"
+    },
+    {
+      "word": "泊まる",
+      "translation": "to stay at (eg. hotel)"
+    },
+    {
+      "word": "法律",
+      "translation": "law"
+    },
+    {
+      "word": "泣く",
+      "translation": "to cry, to weep"
+    },
+    {
+      "word": "泥棒",
+      "translation": "thief, burglar, robber"
+    },
+    {
+      "word": "注射",
+      "translation": "injection"
+    },
+    {
+      "word": "注意",
+      "translation": "caution, being careful, attention (heed)"
+    },
+    {
+      "word": "浅い",
+      "translation": "shallow, superficial"
+    },
+    {
+      "word": "海岸",
+      "translation": "coast, beach"
+    },
+    {
+      "word": "消しゴム",
+      "translation": "eraser"
+    },
+    {
+      "word": "深い",
+      "translation": "deep, profound, thick"
+    },
+    {
+      "word": "済む",
+      "translation": "to finish, to end"
+    },
+    {
+      "word": "港",
+      "translation": "harbour, port"
+    },
+    {
+      "word": "湖",
+      "translation": "lake"
+    },
+    {
+      "word": "湯",
+      "translation": "hot water"
+    },
+    {
+      "word": "準備",
+      "translation": "prepare"
+    },
+    {
+      "word": "滑る",
+      "translation": "to slide, to slip"
+    },
+    {
+      "word": "漫画",
+      "translation": "comic, cartoon"
+    },
+    {
+      "word": "漬ける",
+      "translation": "to soak, to moisten, to pickle"
+    },
+    {
+      "word": "火",
+      "translation": "fire, flame, blaze"
+    },
+    {
+      "word": "火事",
+      "translation": "fire"
+    },
+    {
+      "word": "点",
+      "translation": "spot, mark, point, dot"
+    },
+    {
+      "word": "点く",
+      "translation": "to be started, to be switched on"
+    },
+    {
+      "word": "為",
+      "translation": "good, advantage, in order to"
+    },
+    {
+      "word": "無くなる",
+      "translation": "to disappear, to get lost"
+    },
+    {
+      "word": "無理",
+      "translation": "unreasonable, impossible"
+    },
+    {
+      "word": "焼く",
+      "translation": "to bake, to grill"
+    },
+    {
+      "word": "焼ける",
+      "translation": "to burn, to be roasted, to be sunburnt"
+    },
+    {
+      "word": "熱",
+      "translation": "fever, temperature"
+    },
+    {
+      "word": "片付ける",
+      "translation": "to tidy up, to put in order, to put away"
+    },
+    {
+      "word": "特に",
+      "translation": "particularly, especially"
+    },
+    {
+      "word": "特別",
+      "translation": "special"
+    },
+    {
+      "word": "特急",
+      "translation": "limited express (train, faster than an express)"
+    },
+    {
+      "word": "玄関",
+      "translation": "entrance way (in Japanese house)"
+    },
+    {
+      "word": "珍しい",
+      "translation": "unusual, rare"
+    },
+    {
+      "word": "理由",
+      "translation": "reason, pretext, motive"
+    },
+    {
+      "word": "生きる",
+      "translation": "to live, to exist"
+    },
+    {
+      "word": "生活",
+      "translation": "living, life (one's daily existence), livelihood"
+    },
+    {
+      "word": "生産",
+      "translation": "production, manufacture"
+    },
+    {
+      "word": "産業",
+      "translation": "industry"
+    },
+    {
+      "word": "用",
+      "translation": "task, business, use"
+    },
+    {
+      "word": "用事",
+      "translation": "tasks, chores"
+    },
+    {
+      "word": "用意",
+      "translation": "preparation"
+    },
+    {
+      "word": "田舎",
+      "translation": "rural, countryside"
+    },
+    {
+      "word": "申し上げる",
+      "translation": "to say, to tell"
+    },
+    {
+      "word": "申す",
+      "translation": "(hum) to be called, to say"
+    },
+    {
+      "word": "男性",
+      "translation": "male, man"
+    },
+    {
+      "word": "留守",
+      "translation": "absence, being away from home"
+    },
+    {
+      "word": "番組",
+      "translation": "program (eg. TV)"
+    },
+    {
+      "word": "畳",
+      "translation": "tatami mat (Japanese straw mat)"
+    },
+    {
+      "word": "発音",
+      "translation": "pronunciation"
+    },
+    {
+      "word": "皆",
+      "translation": "everyone, everybody"
+    },
+    {
+      "word": "盗む",
+      "translation": "to steal"
+    },
+    {
+      "word": "盛ん",
+      "translation": "popularity, prosperous"
+    },
+    {
+      "word": "直す",
+      "translation": "to fix, to repair"
+    },
+    {
+      "word": "直る",
+      "translation": "to be fixed, to be repaired"
+    },
+    {
+      "word": "相談",
+      "translation": "consultation, discussion"
+    },
+    {
+      "word": "看護婦",
+      "translation": "(female) nurse"
+    },
+    {
+      "word": "真中",
+      "translation": "middle, centre"
+    },
+    {
+      "word": "眠い",
+      "translation": "sleepy, drowsy"
+    },
+    {
+      "word": "眠る",
+      "translation": "to sleep"
+    },
+    {
+      "word": "着物",
+      "translation": "kimono"
+    },
+    {
+      "word": "知らせる",
+      "translation": "to notify, to advise"
+    },
+    {
+      "word": "石",
+      "translation": "stone"
+    },
+    {
+      "word": "砂",
+      "translation": "sand"
+    },
+    {
+      "word": "研究",
+      "translation": "study, research, investigation"
+    },
+    {
+      "word": "研究室",
+      "translation": "study room, laboratory"
+    },
+    {
+      "word": "確か",
+      "translation": "certain, sure, definite"
+    },
+    {
+      "word": "社会",
+      "translation": "society, public"
+    },
+    {
+      "word": "社長",
+      "translation": "company president, manager, director"
+    },
+    {
+      "word": "祈る",
+      "translation": "to pray, to wish"
+    },
+    {
+      "word": "祖母",
+      "translation": "grandmother"
+    },
+    {
+      "word": "祖父",
+      "translation": "grandfather"
+    },
+    {
+      "word": "神社",
+      "translation": "Shinto shrine"
+    },
+    {
+      "word": "科学",
+      "translation": "science"
+    },
+    {
+      "word": "移る",
+      "translation": "to move (house), to transfer (department)"
+    },
+    {
+      "word": "空く",
+      "translation": "to open, to become empty"
+    },
+    {
+      "word": "空気",
+      "translation": "air, atmosphere"
+    },
+    {
+      "word": "空港",
+      "translation": "airport"
+    },
+    {
+      "word": "立てる",
+      "translation": "to stand (something) up, to erect (something)"
+    },
+    {
+      "word": "競争",
+      "translation": "competition, contest"
+    },
+    {
+      "word": "笑う",
+      "translation": "to laugh, to smile"
+    },
+    {
+      "word": "答",
+      "translation": "answer, response"
+    },
+    {
+      "word": "簡単",
+      "translation": "simple"
+    },
+    {
+      "word": "米",
+      "translation": "uncooked rice"
+    },
+    {
+      "word": "糸",
+      "translation": "thread"
+    },
+    {
+      "word": "約束",
+      "translation": "arrangement, promise"
+    },
+    {
+      "word": "細かい",
+      "translation": "(1) small, (2) fine, minute"
+    },
+    {
+      "word": "紹介",
+      "translation": "introduction"
+    },
+    {
+      "word": "終わり",
+      "translation": "the end"
+    },
+    {
+      "word": "経済",
+      "translation": "economics, finance, economy"
+    },
+    {
+      "word": "経験",
+      "translation": "experience"
+    },
+    {
+      "word": "絹",
+      "translation": "silk"
+    },
+    {
+      "word": "続く",
+      "translation": "to be continued"
+    },
+    {
+      "word": "続ける",
+      "translation": "to continue, to keep up, to keep on"
+    },
+    {
+      "word": "線",
+      "translation": "line, wire"
+    },
+    {
+      "word": "美しい",
+      "translation": "beautiful, lovely"
+    },
+    {
+      "word": "美術館",
+      "translation": "art gallery, art museum"
+    },
+    {
+      "word": "習慣",
+      "translation": "custom, habit, manners"
+    },
+    {
+      "word": "翻訳",
+      "translation": "translation (written)"
+    },
+    {
+      "word": "考える",
+      "translation": "to consider"
+    },
+    {
+      "word": "聞こえる",
+      "translation": "to be heard, to be audible"
+    },
+    {
+      "word": "育てる",
+      "translation": "to raise, to rear, to bring up"
+    },
+    {
+      "word": "背中",
+      "translation": "back (of body)"
+    },
+    {
+      "word": "腕",
+      "translation": "arm"
+    },
+    {
+      "word": "自由",
+      "translation": "freedom"
+    },
+    {
+      "word": "致す",
+      "translation": "(hum) to do"
+    },
+    {
+      "word": "興味",
+      "translation": "interest (in something)"
+    },
+    {
+      "word": "舟",
+      "translation": "ship, boat"
+    },
+    {
+      "word": "花見",
+      "translation": "cherry-blossom viewing, flower viewing"
+    },
+    {
+      "word": "苦い",
+      "translation": "bitter"
+    },
+    {
+      "word": "草",
+      "translation": "grass"
+    },
+    {
+      "word": "落す",
+      "translation": "to drop, to lose"
+    },
+    {
+      "word": "落ちる",
+      "translation": "to fall, to drop"
+    },
+    {
+      "word": "葉",
+      "translation": "leaf"
+    },
+    {
+      "word": "虫",
+      "translation": "insect"
+    },
+    {
+      "word": "血",
+      "translation": "blood"
+    },
+    {
+      "word": "行う",
+      "translation": "to perform, to do, to carry out"
+    },
+    {
+      "word": "表",
+      "translation": "the front, surface, exterior"
+    },
+    {
+      "word": "裏",
+      "translation": "reverse side, wrong side, back"
+    },
+    {
+      "word": "複雑",
+      "translation": "complexity, complication"
+    },
+    {
+      "word": "西洋",
+      "translation": "the west, Western countries"
+    },
+    {
+      "word": "見える",
+      "translation": "to be seen, to be in sight"
+    },
+    {
+      "word": "見つかる",
+      "translation": "(uk) to be found, to be discovered"
+    },
+    {
+      "word": "見つける",
+      "translation": "to discover, to find"
+    },
+    {
+      "word": "見物",
+      "translation": "a sight, an attraction"
+    },
+    {
+      "word": "規則",
+      "translation": "rule, regulations"
+    },
+    {
+      "word": "親",
+      "translation": "parents"
+    },
+    {
+      "word": "親切",
+      "translation": "kindness, gentleness"
+    },
+    {
+      "word": "触る",
+      "translation": "to touch, to feel"
+    },
+    {
+      "word": "計画",
+      "translation": "plan, project, schedule"
+    },
+    {
+      "word": "訪ねる",
+      "translation": "to visit"
+    },
+    {
+      "word": "訳",
+      "translation": "meaning, reason"
+    },
+    {
+      "word": "試合",
+      "translation": "match, game, contest"
+    },
+    {
+      "word": "試験",
+      "translation": "examination, test, study"
+    },
+    {
+      "word": "説明",
+      "translation": "explanation"
+    },
+    {
+      "word": "課長",
+      "translation": "section manager"
+    },
+    {
+      "word": "調べる",
+      "translation": "to investigate, to check up"
+    },
+    {
+      "word": "講堂",
+      "translation": "auditorium"
+    },
+    {
+      "word": "講義",
+      "translation": "lecture"
+    },
+    {
+      "word": "謝る",
+      "translation": "to apologize"
+    },
+    {
+      "word": "警察",
+      "translation": "police"
+    },
+    {
+      "word": "負ける",
+      "translation": "to lose, to be defeated"
+    },
+    {
+      "word": "貿易",
+      "translation": "trade (foreign)"
+    },
+    {
+      "word": "贈り物",
+      "translation": "present, gift"
+    },
+    {
+      "word": "赤ん坊",
+      "translation": "baby"
+    },
+    {
+      "word": "起こす",
+      "translation": "to wake someone"
+    },
+    {
+      "word": "趣味",
+      "translation": "hobby"
+    },
+    {
+      "word": "足す",
+      "translation": "to add (numbers), to do (eg. one's business)"
+    },
+    {
+      "word": "足りる",
+      "translation": "to be sufficient, to be enough"
+    },
+    {
+      "word": "踊り",
+      "translation": "dance"
+    },
+    {
+      "word": "踊る",
+      "translation": "to dance"
+    },
+    {
+      "word": "踏む",
+      "translation": "to step on, to tread on"
+    },
+    {
+      "word": "輸入",
+      "translation": "import"
+    },
+    {
+      "word": "輸出",
+      "translation": "export"
+    },
+    {
+      "word": "辞典",
+      "translation": "dictionary"
+    },
+    {
+      "word": "込む",
+      "translation": "to be crowded"
+    },
+    {
+      "word": "迎える",
+      "translation": "to go out to meet"
+    },
+    {
+      "word": "近所",
+      "translation": "neighbourhood"
+    },
+    {
+      "word": "返事",
+      "translation": "reply, answer"
+    },
+    {
+      "word": "退院",
+      "translation": "leaving hospital"
+    },
+    {
+      "word": "送る",
+      "translation": "to send (a thing), to dispatch"
+    },
+    {
+      "word": "逃げる",
+      "translation": "to escape, to run away"
+    },
+    {
+      "word": "途中",
+      "translation": "on the way, en route, midway"
+    },
+    {
+      "word": "通う",
+      "translation": "(1) to go back and forth, (2) to commute"
+    },
+    {
+      "word": "通り",
+      "translation": "～ Street, ～ Avenue"
+    },
+    {
+      "word": "通る",
+      "translation": "to pass (by), to go through"
+    },
+    {
+      "word": "連れる",
+      "translation": "to lead, to take (a person)"
+    },
+    {
+      "word": "連絡",
+      "translation": "communication, contact, connection"
+    },
+    {
+      "word": "進む",
+      "translation": "to make progress, to advance, to proceed"
+    },
+    {
+      "word": "遅れる",
+      "translation": "to be late, to be delayed"
+    },
+    {
+      "word": "遊び",
+      "translation": "play"
+    },
+    {
+      "word": "運ぶ",
+      "translation": "to transport, to carry"
+    },
+    {
+      "word": "運動",
+      "translation": "exercise"
+    },
+    {
+      "word": "運転",
+      "translation": "driving"
+    },
+    {
+      "word": "運転手",
+      "translation": "driver, chauffeur"
+    },
+    {
+      "word": "過ぎる",
+      "translation": "to exceed, to go beyond"
+    },
+    {
+      "word": "道具",
+      "translation": "tool, means"
+    },
+    {
+      "word": "遠く",
+      "translation": "far away, distant"
+    },
+    {
+      "word": "遠慮",
+      "translation": "restraint, reserve"
+    },
+    {
+      "word": "適当",
+      "translation": "fitness, suitability"
+    },
+    {
+      "word": "選ぶ",
+      "translation": "to choose, to select"
+    },
+    {
+      "word": "郊外",
+      "translation": "suburb, outskirts"
+    },
+    {
+      "word": "部長",
+      "translation": "head of a section"
+    },
+    {
+      "word": "都",
+      "translation": "metroplitan, municipal"
+    },
+    {
+      "word": "都合",
+      "translation": "circumstances, condition, convenience"
+    },
+    {
+      "word": "釣る",
+      "translation": "to fish"
+    },
+    {
+      "word": "鏡",
+      "translation": "mirror"
+    },
+    {
+      "word": "開く",
+      "translation": "to open (eg. a festival)"
+    },
+    {
+      "word": "間",
+      "translation": "space, interval"
+    },
+    {
+      "word": "間に合う",
+      "translation": "(1) to be in time for"
+    },
+    {
+      "word": "間違える",
+      "translation": "to err, to make a mistake"
+    },
+    {
+      "word": "関係",
+      "translation": "relation, connection"
+    },
+    {
+      "word": "隅",
+      "translation": "corner, nook"
+    },
+    {
+      "word": "集める",
+      "translation": "to collect, to assemble"
+    },
+    {
+      "word": "集る",
+      "translation": "to gather, to collect"
+    },
+    {
+      "word": "雲",
+      "translation": "cloud"
+    },
+    {
+      "word": "電報",
+      "translation": "telegram"
+    },
+    {
+      "word": "電灯",
+      "translation": "electric light"
+    },
+    {
+      "word": "非常に",
+      "translation": "very, extremely, exceedingly"
+    },
+    {
+      "word": "音",
+      "translation": "sound, note"
+    },
+    {
+      "word": "頑張る",
+      "translation": "to try one's best, to persist"
+    },
+    {
+      "word": "飛行場",
+      "translation": "airport"
+    },
+    {
+      "word": "食事",
+      "translation": "meal"
+    },
+    {
+      "word": "食料品",
+      "translation": "foodstuff, groceries"
+    },
+    {
+      "word": "飾る",
+      "translation": "to decorate, to ornament, to adorn"
+    },
+    {
+      "word": "首",
+      "translation": "neck"
+    },
+    {
+      "word": "駐車場",
+      "translation": "parking lot, parking place"
+    },
+    {
+      "word": "騒ぐ",
+      "translation": "to make noise, to clamor, to be excited"
+    },
+    {
+      "word": "驚く",
+      "translation": "to be surprised, to be astonished"
+    },
+    {
+      "word": "高校/高等学校",
+      "translation": "high school/senior high school"
+    },
+    {
+      "word": "高校生",
+      "translation": "high school student"
+    },
+    {
+      "word": "髪",
+      "translation": "hair"
+    },
+    {
+      "word": "鳴る",
+      "translation": "to sound, to ring, to resound"
+    }
+  ]
+}

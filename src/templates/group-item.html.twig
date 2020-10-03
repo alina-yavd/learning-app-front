@@ -1,21 +1,23 @@
-{% if user %}
-<div class="group-actions">
-    {% if group.id in user.groups %}
-        <div class="btn-add-user-group" data-id="{{ group.id }}">
-            <span class="btn btn-outline btn-add-icon" title="Добавить группу в профиль"><i class="far fa-plus"></i></span>
-        </div>
-    {% else %}
-        <div class="btn-remove-user-group" data-id="{{ group.id }}">
-            <span class="btn btn-outline btn-remove-icon" title="Удалить группу с профиля"><i class="far fa-times"></i></span>
-        </div>
-    {% endif %}
-</div>
-{% endif %}
-
 <div class="group-title">
-    <a class="group-name-wrap" href="/group/{{ group.id }}">
-        <span class="group-name">{{ group.name }}</span>
-    </a>
+    <div class="group-actions">
+
+        {% if user %}
+            {% if group.id in user.groups %}
+                <div class="btn-remove-user-group" data-id="{{ group.id }}">
+                    <span class="btn btn-outline btn-remove-icon" title="Удалить группу с профиля"><i class="far fa-minus"></i></span>
+                </div>
+            {% else %}
+                <div class="btn-add-user-group" data-id="{{ group.id }}">
+                    <span class="btn btn-outline btn-add-icon" title="Добавить группу в профиль"><i class="far fa-plus"></i></span>
+                </div>
+            {% endif %}
+        {% endif %}
+        <a class="group-name-wrap" href="/group/{{ group.id }}">
+            <span class="group-name">{{ group.name }}</span>
+        </a>
+
+    </div>
+
     <div class="btns-wrap">
         <span class="group-progress">
             <span class="progress-inner">
@@ -30,9 +32,11 @@
         <div class="btn-test" data-group="{{ group.id }}">
             <span class="btn btn-outline">Начать тест</span>
         </div>
-        <div class="btn-delete-group" data-group="{{ group.id }}">
-            <span class="btn btn-outline btn-remove-icon" title="Удалить группу"><i class="far fa-times"></i></span>
-        </div>
+        {% if user %}
+            <div class="btn-delete-group" data-group="{{ group.id }}">
+                <span class="btn btn-outline btn-remove-icon" title="Удалить группу"><i class="far fa-times"></i></span>
+            </div>
+        {% endif %}
     </div>
 </div>
 

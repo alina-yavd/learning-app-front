@@ -100,7 +100,9 @@ function createGroup(group, link = true) {
     groupTitleHtml += `</div>`;
 
     groupTitleHtml += `<div class="btn-test" data-group="${group.id}"><span class="btn btn-outline">Начать тест</span></div>`;
-    groupTitleHtml += `<div class="btn-delete-group" data-group="${group.id}"><span class="btn btn-outline btn-remove-icon" title="Удалить группу"><i class="far fa-times"></i></span></div>`;
+    if (!!user) {
+        groupTitleHtml += `<div class="btn-delete-group" data-group="${group.id}"><span class="btn btn-outline btn-remove-icon" title="Удалить группу"><i class="far fa-times"></i></span></div>`;
+    }
     groupTitleHtml += `</div>`;
 
     groupTitle.innerHTML = groupTitleHtml;
