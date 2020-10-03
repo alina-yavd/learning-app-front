@@ -41,6 +41,10 @@ function redirectUserNotAuthorized() {
     }
 }
 
+function resultGetUser(userData) {
+    localData.set('user', userData);
+}
+
 function renderGetUser(data) {
     if (!profileForm) {
         return;

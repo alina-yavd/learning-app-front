@@ -1,9 +1,9 @@
-function apiGetUser() {
+function apiGetUserGroups() {
     if (!localData.forceget('accessToken') || !localData.forceget('refreshToken')) {
         redirectUserNotAuthorized();
         return false;
     }
-    let url = serverUrl + 'user';
+    let url = serverUrl + 'user/group';
     fetch(url, {
         headers: getAuthHeader(),
     })
@@ -13,12 +13,10 @@ function apiGetUser() {
         .then(function (data) {
             console.log(data);
             if (!!data.message) {
-                apiRefreshToken();
-                resultGetUser(null);
+                console.log(data.message)
             } else {
-                redirectUserAuthorized();
-                resultGetUser(data);
-                renderGetUser(data);
+                resultGetUserGroups(data);
+                renderGetUserGroups(data);
             }
         })
         .catch(function (error) {
@@ -26,33 +24,43 @@ function apiGetUser() {
         });
 }
 
-function apiCreateUser() {
-    let formData = new FormData(registerForm);
-    let url = serverUrl + 'auth/register';
+function apiAddUserGroup() {
+    if (!localData.forceget('accessToken')) {
+        alert('Not authorized!');
+    }
+    let formData = new FormData();
+    let url = serverUrl + 'user/group/' + this.dataset.id;
     let request = new Request(url, {
         method: 'POST',
-        body: formData
+        headers: getAuthHeader(),
+        body: formData,
     });
     fetch(request)
-        .then(function (resp) {
-            return resp.json()
+        .then(function (resp){
+            if (!resp.ok) {
+                return resp.json()
+            }
         })
         .then(function (data) {
-            apiGenerateTokenResponse(data, 'access');
+            if (!!data) {
+                alert(data.message);
+            } else {
+                location.reload();
+            }
         })
         .catch(function (error) {
             console.log(error);
         });
 }
 
-function apiUpdateUser() {
+function apiRemoveUserGroup() {
     if (!localData.forceget('accessToken')) {
         alert('Not authorized!');
     }
-    let formData = new FormData(profileForm);
-    let url = serverUrl + 'user';
+    let formData = new FormData();
+    let url = serverUrl + 'user/group/' + this.dataset.id;
     let request = new Request(url, {
-        method: 'POST',
+        method: 'DELETE',
         headers: getAuthHeader(),
         body: formData,
     });

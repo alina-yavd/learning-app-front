@@ -293,6 +293,26 @@ section {
 .btn-inline:hover {
   color: var(--color-primary); }
 
+.btn.btn-add-icon {
+  width: 32px;
+  padding: 0;
+  font-size: 20px;
+  color: #0b8a3b; }
+  .btn.btn-add-icon:hover {
+    background-color: #0b8a3b;
+    border-color: #0b8a3b;
+    color: #fff; }
+
+.btn.btn-remove-icon {
+  width: 32px;
+  padding: 0;
+  font-size: 20px;
+  color: #ab0000; }
+  .btn.btn-remove-icon:hover {
+    background-color: #ab0000;
+    border-color: #ab0000;
+    color: #fff; }
+
 .container {
   max-width: 1040px;
   margin: 0 auto;
@@ -441,7 +461,7 @@ section {
 
 section:not(.tests) {
   padding: 40px 0; }
-  section:not(.tests).language, section:not(.tests).auth + .auth, section:not(.tests).profile + .progress {
+  section:not(.tests).language, section:not(.tests).auth + .auth, section:not(.tests).profile + .learning {
     padding-top: 0; }
 
 /* Tests Page */
@@ -511,6 +531,12 @@ section:not(.tests) {
   background-color: #fff;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
   border-radius: 25px; }
+  .word-group .group .group-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .word-group .group .group-actions div + .group-name-wrap {
+      margin-left: 10px; }
   .word-group .group .group-title {
     display: flex;
     flex-wrap: wrap;
@@ -528,17 +554,11 @@ section:not(.tests) {
         max-height: 100px;
         object-fit: contain;
         border-radius: 25px; }
+    .word-group .group .group-title .group-progress {
+      margin-right: 15px; }
   .word-group .group .btns-wrap {
     display: flex;
     align-items: center; }
-    .word-group .group .btns-wrap .btn-delete-group .btn {
-      padding: 0 8px;
-      font-size: 20px;
-      color: #ab0000; }
-      .word-group .group .btns-wrap .btn-delete-group .btn:hover {
-        background-color: #ab0000;
-        border-color: #ab0000;
-        color: #fff; }
   .word-group .group .group-words {
     padding: 20px 0;
     columns: 2; }
@@ -550,6 +570,29 @@ section:not(.tests) {
         columns: 5; } }
 .word-group .word {
   margin: 3px 0; }
+
+.group-progress {
+  position: relative; }
+  .group-progress .progress-inner {
+    position: relative;
+    display: block;
+    width: 160px;
+    text-align: center;
+    border: 1px solid var(--color-primary);
+    border-radius: 50px;
+    overflow: hidden; }
+    .group-progress .progress-inner .number {
+      position: relative;
+      z-index: 2;
+      font-weight: 500; }
+    .group-progress .progress-inner .line {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      display: block;
+      height: 100%;
+      background-color: var(--color-primary); }
 
 .group-filter-form {
   flex-wrap: wrap;
@@ -593,6 +636,9 @@ section:not(.tests) {
   overflow: hidden; }
   .flag img {
     width: 40px; }
+
+.user-groups-title {
+  padding: 0 15px; }
 
 /* Lists Page */
 .source {

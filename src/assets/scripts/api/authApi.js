@@ -45,6 +45,8 @@ function apiLogoutUser() {
     });
     localData.remove('accessToken');
     localData.remove('refreshToken');
+    localData.remove('user');
+    localData.remove('userGroups');
     redirectUserNotAuthorized();
     return false;
 }
