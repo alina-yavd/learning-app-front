@@ -5,7 +5,9 @@
         <div class="container">
 
             <section class="words">
-                <div class="word-group" id="word-group" data-id="{{ id }}"></div>
+                <div class="word-group" id="word-group" data-id="{{ id }}">
+                    {% include 'group-item.html.twig' %}
+                </div>
             </section>
 
         </div>

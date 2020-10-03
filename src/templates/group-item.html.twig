@@ -1,0 +1,45 @@
+{% if user %}
+<div class="group-actions">
+    {% if group.id in user.groups %}
+        <div class="btn-add-user-group" data-id="{{ group.id }}">
+            <span class="btn btn-outline btn-add-icon" title="Добавить группу в профиль"><i class="far fa-plus"></i></span>
+        </div>
+    {% else %}
+        <div class="btn-remove-user-group" data-id="{{ group.id }}">
+            <span class="btn btn-outline btn-remove-icon" title="Удалить группу с профиля"><i class="far fa-times"></i></span>
+        </div>
+    {% endif %}
+</div>
+{% endif %}
+
+<div class="group-title">
+    <a class="group-name-wrap" href="/group/{{ group.id }}">
+        <span class="group-name">{{ group.name }}</span>
+    </a>
+    <div class="btns-wrap">
+        <span class="group-progress">
+            <span class="progress-inner">
+                <span class="number">{{ group.progress }}%</span>
+                <span class="line" style="width: {{ group.progress }}%"></span>
+            </span>
+        </span>
+        <div class="lang-flags-wrap">
+            <span class="flag"><img src="/src/assets/images/flags/{{ group.language.code }}.svg"></span>
+            <span class="flag"><img src="/src/assets/images/flags/{{ group.translation.code }}.svg"></span>
+        </div>
+        <div class="btn-test" data-group="{{ group.id }}">
+            <span class="btn btn-outline">Начать тест</span>
+        </div>
+        <div class="btn-delete-group" data-group="{{ group.id }}">
+            <span class="btn btn-outline btn-remove-icon" title="Удалить группу"><i class="far fa-times"></i></span>
+        </div>
+    </div>
+</div>
+
+{% if group.words %}
+    <div class="group-words">
+        {% for word in group.words %}
+            <div class="word" data-id="{{ word.id }}">{{ word.text }}</div>
+        {% endfor %}
+    </div>
+{% endif %}

@@ -7,21 +7,29 @@
             <section class="tests">
                 <div class="tests-nav">
                     <div class="nav-block nav-left">
-                        <div class="current-language"><span>Язык:&nbsp;</span><span id="language">Все</span></div>
-                        <div class="current-source">Группа слов: <span id="group">Все слова</span>&nbsp;</div>
+                        <div class="current-language"><span>Язык:&nbsp;</span><span id="language">{{ local.language }}Все</span></div>
+                        <div class="current-source">Группа слов: <span id="group">{{ local.group }}Все слова</span>&nbsp;</div>
                     </div>
                     <div class="nav-block nav-right">
                         <div class="results-clear"><span class="btn btn-inline">Очистить прогресс</span></div>
-                        <div class="results-count">Ответов: <span>0</span></div>
+                        <div class="results-count">Ответов: <span>{{ local.progress }}0</span></div>
                     </div>
                 </div>
                 <div class="test-inner">
-                    <div class="question" id="question"></div>
+                    <div class="question" id="question" data-id="{{ test.word.id }}">{{ test.word.text }}</div>
                     <div class="answers">
-                        <div id="answers"></div>
-                        <div class="right-answer" id="correctAnswer"></div>
+                        <div id="answers">
+                            {% for answer in test.answers %}
+                                <div class="answer" data-id="{{ answer.id }}">{{ answer.text }}</div>
+                            {% endfor %}
+                        </div>
+                        <div class="right-answer" id="correctAnswer">{{ checkTest.result.text }}</div>
                     </div>
-                    <div class="question-buttons"></div>
+                    <div class="question-buttons">
+                        {% if test.answers %}
+                            <div class="btn-next"><span class="btn btn-bg btn-icon btn-icon-right">Следующий вопрос</span></div>
+                        {% endif %}
+                    </div>
                 </div>
             </section>
 

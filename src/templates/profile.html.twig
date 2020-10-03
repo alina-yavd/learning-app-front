@@ -4,7 +4,7 @@
     <main class="site-main">
         <div class="container">
 
-            <section class="auth">
+            <section class="profile">
                 <form class="profile-form" id="profile-form" method="post">
                     <div class="title-wrap">
                         <h2>Мой профиль</h2>
@@ -34,6 +34,17 @@
                         <button type="submit" class="btn btn-bg">Сохранить</button>
                     </div>
                 </form>
+            </section>
+
+            <section class="learning">
+                <div class="user-learning" id="user-learning">
+                    <h2 class="user-groups-title">Я изучаю:</h2>
+                    {% for group in user.groups %}
+                        <div class="group" data-id="{{ group.id }}">
+                            {% include 'group-item.html.twig' %}
+                        </div>
+                    {% endfor %}
+                </div>
             </section>
 
         </div>

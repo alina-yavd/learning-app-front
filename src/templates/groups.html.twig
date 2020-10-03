@@ -13,6 +13,9 @@
                                 <span>Язык оригинала</span>
                                 <select name="original" class="language-select">
                                     <option></option>
+                                    {% for language in languages %}
+                                        <option value="{{ language.code }}">{{ language.name }}</option>
+                                    {% endfor %}
                                 </select>
                             </label>
                         </div>
@@ -21,6 +24,9 @@
                                 <span>Язык перевода</span>
                                 <select name="translation" class="language-select">
                                     <option></option>
+                                    {% for language in languages %}
+                                        <option value="{{ language.code }}">{{ language.name }}</option>
+                                    {% endfor %}
                                 </select>
                             </label>
                         </div>
@@ -29,7 +35,13 @@
                         <button type="submit" class="btn btn-outline">Применить</button>
                     </div>
                 </form>
-                <div class="word-group" id="words"></div>
+                <div class="word-group" id="words">
+                    {% for group in groups %}
+                        <div class="group" data-id="{{ group.id }}">
+                            {% include 'group-item.html.twig' %}
+                        </div>
+                    {% endfor %}
+                </div>
             </section>
 
         </div>
