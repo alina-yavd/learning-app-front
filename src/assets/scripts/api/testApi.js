@@ -26,6 +26,9 @@ function apiSubmitAnswer() {
     let postData = new FormData;
     postData.append('wordId', word);
     postData.append('answerId', answer);
+    if (!!userCurrentGroup) {
+        postData.append('groupId', userCurrentGroup.id);
+    }
     let fetchData = {
         method: 'POST',
         headers: getAuthHeader(),

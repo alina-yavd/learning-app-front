@@ -77,10 +77,18 @@ function createAnswers(data) {
 
 function renderSubmitAnswer(data) {
     let answersText = [];
-    data.word.translations.map(function (answer) {
-        answersText.push(answer.text);
-    });
-    rightAnswerDiv.innerHTML = `${data.word.text} &mdash; ${answersText.join(' | ')}`;
+    let answerText = '';
+    if (!!data.group) {
+        let answer = data.word.translations.find(x => x.language === data.group.translation.code);
+        answerText = answer.text;
+    }
+    if (!answerText) {
+        data.word.translations.map(function (answer) {
+            answersText.push(answer.text);
+        });
+        answerText = answersText.join(' | ');
+    }
+    rightAnswerDiv.innerHTML = `${data.word.text} &mdash; ${answerText}`;
     rightAnswerDiv.className = data.result;
     updateResultsCount(data.result);
     apiGetTest();
