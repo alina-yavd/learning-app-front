@@ -121,7 +121,8 @@ function resultDeleteGroup(data, id) {
 
 function createWord(word) {
     let wordEl = createNode('div', 'word');
-    wordEl.innerHTML = `${word.text}`;
+    wordEl.innerHTML = `<span class="word">${word.text}</span>&nbsp;-&nbsp;`;
+    wordEl.innerHTML += `<span class="translation">${word.translations.map(x => x.text).join(', ')}</span>`;
     wordEl.setAttribute('data-id', `${word.id}`);
     return wordEl;
 }

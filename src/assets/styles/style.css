@@ -561,13 +561,14 @@ section:not(.tests) {
     align-items: center; }
   .word-group .group .group-words {
     padding: 20px 0;
-    columns: 2; }
-    @media (min-width: 576px) {
-      .word-group .group .group-words {
-        columns: 3; } }
+    columns: 1; }
     @media (min-width: 768px) {
       .word-group .group .group-words {
-        columns: 5; } }
+        columns: 2; } }
+    .word-group .group .group-words .word {
+      margin-right: 5px; }
+    .word-group .group .group-words .translation {
+      margin-left: 5px; }
 .word-group .word {
   margin: 3px 0; }
 

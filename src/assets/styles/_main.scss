@@ -468,14 +468,18 @@ section:not(.tests) {
 
     .group-words {
       padding: 20px 0;
-      columns: 2;
-
-      @media (min-width: 576px) {
-        columns: 3;
-      }
+      columns: 1;
 
       @media (min-width: 768px) {
-        columns: 5;
+        columns: 2;
+      }
+
+      .word {
+        margin-right: 5px;
+      }
+
+      .translation {
+        margin-left: 5px;
       }
     }
   }
