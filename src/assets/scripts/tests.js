@@ -76,18 +76,18 @@ function createAnswers(data) {
 }
 
 function renderSubmitAnswer(data) {
+    let answers = [];
     let answersText = [];
     let answerText = '';
     if (!!data.group) {
-        let answer = data.word.translations.find(x => x.language === data.group.translation.code);
-        answerText = answer.text;
+        answers = data.word.translations.filter(x => x.language === data.group.translation.code);
+    } else {
+        answers = data.word.translations;
     }
-    if (!answerText) {
-        data.word.translations.map(function (answer) {
-            answersText.push(answer.text);
-        });
-        answerText = answersText.join(' | ');
-    }
+    answers.map(function (answer) {
+        answersText.push(answer.text);
+    });
+    answerText = answersText.join(' | ');
     rightAnswerDiv.innerHTML = `${data.word.text} &mdash; ${answerText}`;
     rightAnswerDiv.className = data.result;
     updateResultsCount(data.result);
